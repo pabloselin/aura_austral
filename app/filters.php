@@ -68,3 +68,8 @@ add_filter('comments_template', function ($comments_template) {
     );
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
+
+add_filter('sage/template/single/data', function (array $data) {
+    $data['header_image'] = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full', false);
+    return $data;
+});

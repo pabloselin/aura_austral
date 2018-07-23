@@ -13,6 +13,7 @@ use Roots\Sage\Template\BladeProvider;
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Marcellus+SC|Cabin:400,400i,700', false, null);
 }, 100);
 
 /**
@@ -97,6 +98,15 @@ add_action('the_post', function ($post) {
 });
 
 /**
+* Localization
+*
+*/
+
+add_action('after_setup_theme', function () {
+    load_theme_textdomain('sage', get_template_directory() . '/lang');
+});
+
+/**
  * Setup Sage options
  */
 add_action('after_setup_theme', function () {
@@ -125,4 +135,15 @@ add_action('after_setup_theme', function () {
     sage('blade')->compiler()->directive('asset', function ($asset) {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
+});
+
+add_filter('sage/display_sidebar', function ($display) {
+    static $display;
+
+    isset($display) || $display = in_array(true, [
+      // The sidebar will be displayed if any of the following return true
+      is_single()
+    ]);
+
+    return $display;
 });

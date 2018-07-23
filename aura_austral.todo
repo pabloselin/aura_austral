@@ -1,4 +1,8 @@
 - Sistema de notas al pie
 - Sistema de galerías
 - Sistema de relaciones con número
+	- Tomar los contenidos asociados con un número
+	- Mostrar el número al que pertenece un contenido
+		- Hacer un componente estándar para mostrar el número al que pertenece
 - Sistema de mapas
+
