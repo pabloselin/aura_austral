@@ -1,3 +1,30 @@
+.banner {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.social {
+  text-align: right;
+  font-size: 32px;
+
+  a {
+    color: white;
+  }
+}
+
+.home .social {
+  a {
+    color: #333;
+  }
+}
+
+.logo {
+  max-width: 180px;
+  height: auto;
+  padding: 24px 0 0 0;
+}
+
 .banner .nav li {
   @extend .nav-item;
 }
@@ -5,3 +32,4 @@
 .banner .nav a {
   @extend .nav-link;
 }
+

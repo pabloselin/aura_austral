@@ -1,0 +1,35 @@
+.homeitem {
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 12px;
+  min-height: 300px;
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  a {
+    color: white;
+    text-shadow: 1px 1px 3px #555;
+    padding: 24px 24px 48px 24px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .post-type-name {
+    color: white;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 3px;
+    right: 12px;
+    font-size: 0.8rem;
+    opacity: 0.9;
+  }
+}

@@ -13,7 +13,7 @@ use Roots\Sage\Template\BladeProvider;
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('sage/main.css', asset_path('styles/main.css'), false, null);
     wp_enqueue_script('sage/main.js', asset_path('scripts/main.js'), ['jquery'], null, true);
-    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Marcellus+SC|Cabin:400,400i,700', false, null);
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700', false, null);
 }, 100);
 
 /**
@@ -41,7 +41,8 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/reference/functions/register_nav_menus/
      */
     register_nav_menus([
-        'primary_navigation' => __('Primary Navigation', 'sage')
+        'primary_navigation' => __('Primary Navigation', 'sage'),
+        'homepage' => __('Home articles', 'sage')
     ]);
 
     /**
@@ -142,7 +143,7 @@ add_filter('sage/display_sidebar', function ($display) {
 
     isset($display) || $display = in_array(true, [
       // The sidebar will be displayed if any of the following return true
-      is_single()
+      //is_single()
     ]);
 
     return $display;

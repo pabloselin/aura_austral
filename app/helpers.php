@@ -138,3 +138,47 @@ function display_sidebar()
     isset($display) || $display = apply_filters('sage/display_sidebar', false);
     return $display;
 }
+
+function get_menus($menu) {
+    /**
+     * Obtiene items de un objeto de menú
+     */
+        $menuobject = get_menu_object($menu);
+        if($menuobject) {
+        //Si tengo un objeto menú me devuelve el objeto y empiezo a recolectar items
+            $items = wp_get_nav_menu_items( $menuobject->term_id );
+            return $items;
+        } else {
+            //Si no hay hago un llamado independiente por sección
+            return false;
+        }
+}
+
+function get_menu_object($location) {
+    /**
+     * Obtiene el menú desde una ubicación escogida
+     */
+    if( ( $locations = get_nav_menu_locations() ) && isset($locations[$location]) ){
+        $menu = wp_get_nav_menu_object( $locations[$location] );
+        return $menu;
+    } else {
+        return false;
+    }
+}
+
+function get_instagram() {
+    return 'https://www.instagram.com/auraaustral.cl/';
+}
+
+function get_post_type_name( $postid ) {
+    $ptypeobj = get_post_type_object( get_post_type( $postid ) );
+    return $ptypeobj->labels->name;
+}
+
+function get_logo() {
+    if(is_home()) {
+        return get_template_directory_uri() . '/assets/images/aura_austral.png';
+    } else {
+        return get_template_directory_uri() . '/assets/images/aura_austral_blanco.png';
+    }
+}

@@ -17,9 +17,14 @@
 @import "components/comments";
 @import "components/forms";
 @import "components/wp-classes";
+@import "components/homeitem";
+@import "components/footnotes.scss";
+
+/** Layouts */
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
+@import "layouts/single";
 @import "layouts/tinymce";

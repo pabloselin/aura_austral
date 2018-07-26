@@ -1,0 +1,64 @@
+.single main.main {
+  header {
+    height: 100vh;
+    margin-bottom: 48px;
+    background-color: #555;
+    margin-top: -$header_height;
+
+    .overlay {
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    h1.entry-title {
+      font-size: 56px;
+      color: white;
+      padding: $header_height 0 24px 0;
+      text-shadow: 1px 1px 3px #555;
+
+      @include media-breakpoint-down(sm) {
+        padding: $header_height + 24px  0 12px 0;
+        font-size: 32px;
+      }
+    }
+
+    .author,
+    .author a {
+      color: #555;
+      font-family: $text_font;
+      font-size: 1.8rem;
+    }
+  }
+
+  .entry-content {
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: $text_font;
+    font-size: 1.4rem;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+
+    h2,
+    h3,
+    h4 {
+      margin: 2rem 0;
+    }
+
+    figure {
+      margin: 3rem auto;
+
+      figcaption {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+blockquote {
+  padding-left: 48px;
+  margin: 24px 0;
+  font-style: italic;
+}
