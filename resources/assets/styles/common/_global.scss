@@ -6,6 +6,10 @@ body {
   margin-top: $header_height;
 }
 
+.visual-template-default .content .main {
+  margin-top: 0;
+}
+
 h1,
 h2,
 h3,
