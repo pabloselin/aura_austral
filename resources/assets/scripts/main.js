@@ -30,6 +30,5 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // add the imported icons to the library
 library.add( faInstagram );
-console.log('fontawesome');
 // tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
 dom.watch();
