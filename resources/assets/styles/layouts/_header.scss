@@ -30,9 +30,9 @@
 }
 
 .logo {
-  max-width: 180px;
+  max-width: 200px;
   height: auto;
-  padding: 24px 0 0 0;
+  padding: 24px 0 0 16px;
 }
 
 .banner .nav li {
@@ -48,6 +48,7 @@
   color: white;
   display: block;
   margin-top: 42px;
+  margin-right: 16px;
 }
 
 .home .banner .toggle,
