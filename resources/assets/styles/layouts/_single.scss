@@ -26,6 +26,16 @@
     font-family: $text_font;
     font-size: 1.4rem;
 
+    p:first-of-type::first-letter {
+      font-size: 64px;
+      line-height: 48px;
+      font-weight: 600;
+      vertical-align: top;
+      display: block;
+      padding: 3px;
+      float: left;
+    }
+
     @include media-breakpoint-down(sm) {
       max-width: 100%;
     }
