@@ -24,7 +24,7 @@ class FrontPage extends Controller
 
 			$thisitem = (object) array(
 				'title' => $item->title,
-				'image' => get_the_post_thumbnail_url( $item->object_id, 'medium' ),
+				'image' => get_the_post_thumbnail_url( $item->object_id, 'large' ),
 				'link'  => get_permalink( $item->object_id ),
 				'type'	=> get_post_type_name( $item->object_id ),
 				'width' => $width

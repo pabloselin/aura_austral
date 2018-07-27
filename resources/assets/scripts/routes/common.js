@@ -2,13 +2,15 @@ export default {
 	init() {
 		// JavaScript to be fired on all pages
 		//NAV stuff
-		$(".nav-primary").hide();
-		$(".toggle").on('click', function() {
-			$('.nav-primary').show();
+		//$(".nav-primary").hide();
+		$(".toggle").on('click', function(e) {
+			e.preventDefault();
+			$('.nav-primary').addClass('active');
 		});
 
-		$(".close").on('click', function() {
-			$(".nav-primary").hide();
+		$(".close").on('click', function(e) {
+			e.preventDefault();
+			$(".nav-primary").removeClass('active');
 		})
 	},
 	finalize() {
