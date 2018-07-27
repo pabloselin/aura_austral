@@ -22,7 +22,8 @@
   }
 }
 
-.home .social {
+.home .social,
+.single-ediciones .social {
   a {
     color: #333;
   }
@@ -42,3 +43,14 @@
   @extend .nav-link;
 }
 
+.banner .toggle {
+  font-size: 42px;
+  color: white;
+  display: block;
+  margin-top: 42px;
+}
+
+.home .banner .toggle,
+.single-ediciones .banner .toggle {
+  color: #333;
+}

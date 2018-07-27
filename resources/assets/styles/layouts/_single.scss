@@ -1,15 +1,5 @@
 .single main.main {
   header {
-    height: 100vh;
-    margin-bottom: 48px;
-    background-color: #555;
-    margin-top: -$header_height;
-
-    .overlay {
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-
     h1.entry-title {
       font-size: 56px;
       color: white;
@@ -96,4 +86,30 @@ blockquote {
   padding: 6px 24px;
   z-index: 10;
   margin: 0;
+}
+
+.single main.main header.ediciones {
+  height: auto;
+
+  h1.entry-title {
+    padding: 0;
+    color: #333;
+    text-shadow: none;
+  }
+}
+
+.single-ediciones main.main .entry-content {
+  max-width: 100%;
+}
+
+.single main.main header.post {
+  height: 100vh;
+  margin-bottom: 48px;
+  background-color: #555;
+  margin-top: -$header_height;
+
+  .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }

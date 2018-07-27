@@ -176,7 +176,7 @@ function get_post_type_name( $postid ) {
 }
 
 function get_logo() {
-    if(is_home()) {
+    if(is_home() || is_singular('ediciones')) {
         return get_template_directory_uri() . '/assets/images/aura_austral.png';
     } else {
         return get_template_directory_uri() . '/assets/images/aura_austral_blanco.png';

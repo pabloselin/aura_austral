@@ -1,0 +1,33 @@
+.nav-primary {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 10;
+
+  ul.nav {
+    padding: 32px 0 0 0;
+
+    a {
+      font-size: 32px;
+      font-weight: 600;
+      font-family: 'Crimson Text', sans-serif;
+      color: #333;
+    }
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  a.close {
+    font-size: 42px;
+    margin-top: 42px;
+  }
+
+  a.social-link {
+    color: #333;
+    font-size: 42px;
+  }
+}

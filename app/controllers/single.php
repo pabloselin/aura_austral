@@ -35,8 +35,3 @@ class Single extends Controller
 		return $imageurls;
 	}
 }
-
-// add_filter('sage/template/single/data', function (array $data) {
-//     $data['header_image'] = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full', false);
-//     return $data;
-// });
