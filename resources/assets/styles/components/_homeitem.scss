@@ -1,13 +1,13 @@
 .homeitem {
-  background-color: #f0f0f0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   margin-bottom: 32px;
   min-height: 300px;
 
   .wrap-homeitem {
     position: relative;
+    background-color: #f0f0f0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 
   h1 {
