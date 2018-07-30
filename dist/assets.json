@@ -4,7 +4,13 @@
   "images/prelogo_version.png": "images/prelogo_version_d4709a2d.png",
   "images/prelogo_version.svg": "images/prelogo_version_d74757f8.svg",
   "images/prelogo_version_2.png": "images/prelogo_version_2_de71c393.png",
-  "scripts/customizer.js": "scripts/customizer_1572c101.js",
-  "styles/main.css": "styles/main_1572c101.css",
-  "scripts/main.js": "scripts/main_1572c101.js"
+  "vendor/fontawesome-webfont.eot": "vendor/fontawesome-webfont_674f50d2.eot",
+  "vendor/fontawesome-webfont.eot?v=4.7.0": "vendor/fontawesome-webfont_674f50d2.eot",
+  "vendor/fontawesome-webfont.svg?v=4.7.0": "vendor/fontawesome-webfont_912ec66d.svg",
+  "vendor/fontawesome-webfont.ttf?v=4.7.0": "vendor/fontawesome-webfont_b06871f2.ttf",
+  "vendor/fontawesome-webfont.woff2?v=4.7.0": "vendor/fontawesome-webfont_af7ae505.woff2",
+  "vendor/fontawesome-webfont.woff?v=4.7.0": "vendor/fontawesome-webfont_fee66e71.woff",
+  "scripts/customizer.js": "scripts/customizer_3d37eecb.js",
+  "styles/main.css": "styles/main_3d37eecb.css",
+  "scripts/main.js": "scripts/main_3d37eecb.js"
 }
