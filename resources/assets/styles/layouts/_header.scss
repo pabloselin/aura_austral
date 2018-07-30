@@ -31,10 +31,24 @@
   }
 }
 
-.logo {
+.logo img {
   max-width: 200px;
   height: auto;
   padding: 24px 0 0 16px;
+  margin: 0 auto;
+}
+
+.logo img.isotipo {
+  max-width: 60px;
+}
+
+.home .logo img {
+  padding: 24px 0 0 0;
+}
+
+.home .logo img.isotipo {
+  padding: 24px 0 0 0;
+  margin-left: 24px;
 }
 
 .banner .nav li {
@@ -55,6 +69,6 @@
   color: #333;
 }
 
-.home .brand {
+.home .logo {
   text-align: center;
 }

@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col align-self-center brand">
-				<a class="brand" href="{{ home_url('/') }}"><img src="{{ App\get_logo() }}" class="logo" /></a>
+				<a class="logo" href="{{ home_url('/') }}"><img class="d-none d-lg-block d-md-block" src="{{ App\get_logo() }}" /> <img class="d-md-none d-lg-none d-sm-block isotipo" src="{{ App\get_mobile_logo() }}" /></a>	
 			</div>
 		</div>
 			<div class="social">
@@ -16,7 +16,7 @@
 		<div class="row">
 
 		<div class="col">
-			<a class="brand" href="{{ home_url('/') }}"><img src="{{ App\get_logo('dark') }}" class="logo" /></a>
+			<a class="logo" href="{{ home_url('/') }}"><img src="{{ App\get_logo('dark') }}" /></a>
 			@if (has_nav_menu('primary_navigation'))
 			{!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
 			@endif

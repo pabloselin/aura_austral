@@ -182,3 +182,11 @@ function get_logo( $color = null ) {
         return get_template_directory_uri() . '/assets/images/aura_austral_blanco.png';
     }
 }
+
+function get_mobile_logo( $color = null ) {
+    if(is_singular('ediciones') || $color === 'dark' ) {
+        return get_template_directory_uri() . '/assets/images/aura_mini.png';
+    } else {
+        return get_template_directory_uri() . '/assets/images/aura_mini_blanco.png';
+    }
+}
