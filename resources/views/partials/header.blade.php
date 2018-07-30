@@ -1,20 +1,14 @@
 <header class="banner">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col align-self-center">
+			<div class="col align-self-center brand">
 				<a class="brand" href="{{ home_url('/') }}"><img src="{{ App\get_logo() }}" class="logo" /></a>
-				
-			</div>
-
-			
-			<div class="social col align-self-center">
-				{{-- <a href="{{ App\get_instagram() }}"><i class="fab fa-instagram"></i></a> --}}
-				<a href="#" class="toggle"><i class="fas fa-bars"></i></a>
-
-				
-
 			</div>
 		</div>
+			<div class="social">
+				{{-- <a href="{{ App\get_instagram() }}"><i class="fab fa-instagram"></i></a> --}}
+				<a href="#" class="toggle"><i class="fas fa-bars"></i></a>
+			</div>
 	</div>
 </header>
 <nav class="nav-primary">

@@ -2,11 +2,11 @@
   position: absolute;
   width: 100%;
   top: 0;
+  z-index: 10;
 }
 
 .visual-template-default .banner {
   position: fixed;
-  z-index: 10;
 }
 
 .admin-bar .banner {
@@ -16,13 +16,15 @@
 .social {
   text-align: right;
   font-size: 32px;
+  position: absolute;
+  right: 36px;
+  top: 36px;
 
   a {
     color: white;
   }
 }
 
-.home .social,
 .single-ediciones .social {
   a {
     color: #333;
@@ -47,11 +49,12 @@
   font-size: 42px;
   color: white;
   display: block;
-  margin-top: 42px;
-  margin-right: 16px;
 }
 
-.home .banner .toggle,
 .single-ediciones .banner .toggle {
   color: #333;
+}
+
+.home .brand {
+  text-align: center;
 }

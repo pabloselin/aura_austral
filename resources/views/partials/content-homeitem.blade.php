@@ -1,4 +1,4 @@
-<article class="homeitem {{ $item->width }}"> 
+<article class="homeitem {{ $item->width }} {{ $item->key }}"> 
   	<div class="wrap-homeitem" style="background-image:url({{ $item->image }})">
   	<a href="{{$item->link}}">
   		<h1>{{ $item->title }}</h1>

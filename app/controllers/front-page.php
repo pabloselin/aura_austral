@@ -15,10 +15,10 @@ class FrontPage extends Controller
 			$width = 'col-6';
 			switch($key) {
 				case(0):
-					$width = 'col-12';
+					$width = 'col-md-12';
 				break;
 				default:
-					$width = 'col-6';
+					$width = 'col-md-6';
 				break;
 			}
 
@@ -28,7 +28,8 @@ class FrontPage extends Controller
 				'link'  => get_permalink( $item->object_id ),
 				'type'	=> get_post_type_name( $item->object_id ),
 				'width' => $width,
-				'author'=> get_the_author_meta( 'display_name',  $item->post_author)
+				'author'=> get_the_author_meta( 'display_name',  $item->post_author),
+				'key'	=> 'homeitem-' . $key
 			);
 			
 			array_push($items, $thisitem);

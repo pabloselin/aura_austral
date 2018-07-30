@@ -42,3 +42,19 @@
     opacity: 0.9;
   }
 }
+
+/**
+First Item
+**/
+
+.homeitem-0 .wrap-homeitem a {
+  padding-top: $header_height * 2;
+}
+
+.homeitem-0 {
+  text-align: center;
+
+  h1 {
+    font-size: 4.2rem;
+  }
+}

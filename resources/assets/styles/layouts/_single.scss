@@ -3,7 +3,7 @@
     h1.entry-title {
       font-size: 56px;
       color: white;
-      padding: $header_height 0 24px 0;
+      padding: $header_height * 2 0 24px 0;
       text-shadow: 1px 1px 3px #555;
 
       @include media-breakpoint-down(sm) {
@@ -15,8 +15,8 @@
     .author,
     .author a {
       color: white;
-      font-family: $text_font;
-      font-size: 1.8rem;
+      font-family: $util_font;
+      font-size: 1.4rem;
     }
   }
 
@@ -116,7 +116,6 @@ blockquote {
   height: 100vh;
   margin-bottom: 48px;
   background-color: #555;
-  margin-top: -$header_height;
 
   .overlay {
     height: 100%;
