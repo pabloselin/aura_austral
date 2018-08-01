@@ -1,0 +1,25 @@
+.carditem {
+  padding: 0 60px;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .post-type-name,
+  .author {
+    color: #555;
+    font-size: 0.8rem;
+  }
+}

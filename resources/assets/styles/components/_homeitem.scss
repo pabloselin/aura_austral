@@ -47,6 +47,11 @@
 First Item
 **/
 
+.featured-row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .homeitem-0 .wrap-homeitem a {
   padding-top: $header_height * 2;
 }

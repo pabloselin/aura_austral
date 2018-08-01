@@ -34,8 +34,7 @@
 .logo img {
   max-width: 200px;
   height: auto;
-  padding: 24px 0 0 16px;
-  margin: 0 auto;
+  padding: 24px 0 0 32px;
 }
 
 .logo img.isotipo {
@@ -43,7 +42,7 @@
 }
 
 .home .logo img {
-  padding: 24px 0 0 0;
+  padding: 24px 0 0 32px;
 }
 
 .home .logo img.isotipo {
@@ -67,8 +66,4 @@
 
 .single-ediciones .banner .toggle {
   color: #333;
-}
-
-.home .logo {
-  text-align: center;
 }
