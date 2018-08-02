@@ -5,6 +5,7 @@
       color: white;
       padding: $header_height * 2 0 24px 0;
       text-shadow: 1px 1px 3px #555;
+      font-weight: 400;
 
       @include media-breakpoint-down(sm) {
         padding: $header_height + 24px  0 12px 0;
