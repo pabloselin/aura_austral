@@ -1,4 +1,4 @@
-<article class="editem col-md {{ $item->key }}"> 
+<article class="editem col-md-3 {{ $item->key }}"> 
   	<div class="wrap-carditem">
   	<a href="{{$item->link}}">
   		<span class="post-type-name">{{ $item->type }}</span>

@@ -3,10 +3,10 @@
     <div class="row">
       <div class="col">
         <header class="ediciones">
-          <h1 class="entry-title">{{ get_the_title() }}</h1>
+          <h1 class="entry-title"><a href="{{get_permalink()}}">{{ get_the_title() }}</a></h1>
         </header>
 
-        <div class="entry-content">
+        <div class="entry-content excerpt">
           @php(the_excerpt())
         </div>
       </div>

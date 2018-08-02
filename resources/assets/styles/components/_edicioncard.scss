@@ -1,0 +1,45 @@
+.edicioncard {
+  a {
+    display: block;
+    border: 1px solid #ccc;
+    max-width: 230px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding: 32px 12px 0 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 2px #333;
+    text-transform: uppercase;
+    position: relative;
+
+    h1 {
+      transform: rotate(-90deg);
+      transform-origin: 100% 0;
+      position: absolute;
+      height: 280px;
+      margin: 0;
+      bottom: 0;
+      right: 45px;
+    }
+
+    .month {
+      position: absolute;
+      left: 12px;
+      bottom: 4px;
+      font-size: 1rem;
+    }
+  }
+}
+
+.edicioncard.draft {
+  opacity: 0.6;
+
+  a {
+    border-style: dashed;
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    background-color: #f0f0f0;
+  }
+}
