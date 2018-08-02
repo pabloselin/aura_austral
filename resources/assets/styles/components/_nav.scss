@@ -42,3 +42,14 @@
     font-size: 42px;
   }
 }
+
+.banner .toggle {
+  font-size: 42px;
+  color: white;
+  display: block;
+}
+
+.page .banner .toggle,
+.glosario-template-default .banner .toggle {
+  color: #333;
+}

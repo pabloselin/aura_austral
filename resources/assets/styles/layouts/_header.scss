@@ -25,12 +25,6 @@
   }
 }
 
-.single-ediciones .social {
-  a {
-    color: #333;
-  }
-}
-
 .logo img {
   max-width: 200px;
   height: auto;
@@ -56,14 +50,4 @@
 
 .banner .nav a {
   @extend .nav-link;
-}
-
-.banner .toggle {
-  font-size: 42px;
-  color: white;
-  display: block;
-}
-
-.single-ediciones .banner .toggle {
-  color: #333;
 }

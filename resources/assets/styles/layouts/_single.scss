@@ -26,16 +26,6 @@
     font-family: $text_font;
     font-size: 1.4rem;
 
-    p:first-of-type::first-letter {
-      font-size: 64px;
-      line-height: 48px;
-      font-weight: 600;
-      vertical-align: top;
-      display: block;
-      padding: 3px;
-      float: left;
-    }
-
     @include media-breakpoint-down(sm) {
       max-width: 100%;
     }
@@ -103,7 +93,6 @@ blockquote {
 
   h1.entry-title {
     padding: 0;
-    color: #333;
     text-shadow: none;
   }
 }
@@ -120,5 +109,18 @@ blockquote {
   .overlay {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.artistas-template-default,
+.cronicas_territorio-template-default {
+  .entry-content p:first-of-type::first-letter {
+    font-size: 64px;
+    line-height: 48px;
+    font-weight: 600;
+    vertical-align: top;
+    display: block;
+    padding: 3px;
+    float: left;
   }
 }

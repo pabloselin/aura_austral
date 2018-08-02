@@ -1,0 +1,55 @@
+.page main.main,
+.glosario-template-default main.main {
+  div.page-header {
+    h1.entry-title {
+      font-size: 56px;
+      color: #333;
+      padding: $header_height 0 24px 0;
+      text-align: center;
+
+      @include media-breakpoint-down(sm) {
+        padding: $header_height + 24px  0 12px 0;
+        font-size: 32px;
+      }
+    }
+
+    .author,
+    .author a {
+      color: white;
+      font-family: $util_font;
+      font-size: 1.4rem;
+    }
+  }
+
+  .entry-content {
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: $text_font;
+    font-size: 1.4rem;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+
+    h2,
+    h3,
+    h4 {
+      margin: 2rem 0;
+    }
+
+    figure {
+      margin: 3rem auto;
+
+      figcaption {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+blockquote {
+  padding-left: 48px;
+  margin: 24px 0;
+  font-style: italic;
+}

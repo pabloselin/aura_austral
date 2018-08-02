@@ -19,6 +19,7 @@
 @import "components/wp-classes";
 @import "components/homeitem";
 @import "components/carditem";
+@import "components/editem";
 @import "components/footnotes";
 @import "components/nav";
 
@@ -29,4 +30,6 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/single";
+@import "layouts/single-ediciones";
+@import "layouts/page";
 @import "layouts/tinymce";

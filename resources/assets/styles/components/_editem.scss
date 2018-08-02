@@ -1,6 +1,10 @@
-.carditem {
-  padding: 0 40px;
-  margin-bottom: 48px;
+.editem {
+  margin: 48px 0 48px;
+  color: white;
+
+  a {
+    color: white;
+  }
 
   a:hover {
     text-decoration: none;
@@ -13,14 +17,14 @@
   }
 
   h1 {
-    color: #333;
+    color: white;
     font-size: 1.6rem;
     font-weight: 400;
   }
 
   .post-type-name,
   .author {
-    color: #555;
+    color: #f0f0f0;
     font-size: 0.8rem;
   }
 }
