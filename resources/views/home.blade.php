@@ -7,13 +7,13 @@
   		@include('partials.content-homeitem')
   	</div>
     <div class="row">
-      @php( $texts = array_slice($home_items,0, 3))
+      @php( $texts = array_slice($home_items,0, 4))
       @foreach($texts as $item)
         @include('partials.content-carditem')
       @endforeach
     </div>
     <div class="row">
-      @php( $visuales = array_slice($home_items, 3, 2))
+      @php( $visuales = array_slice($home_items, 4, 2))
       @foreach($visuales as $item)
         @include('partials.content-homeitem')
       @endforeach
