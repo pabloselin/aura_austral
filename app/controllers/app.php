@@ -31,8 +31,21 @@ class App extends Controller
         return get_the_title();
     }
 
-    public static function logo()
-    {
-        return 'logo.jpg';
+    public function lastnumber() {
+        $lastnumber = [];
+
+        $args = array('post_type' => 'ediciones', 'post_status' => 'publish');
+
+        $lastedicion = get_posts($args);
+
+        $lastnumber['title'] = $lastedicion[0]->post_title;
+        
+        if($lastedicion) {
+            $contenidos_edicion = SingleEdiciones::contenidos_edicion($lastedicion[0]->ID);
+            $lastnumber['content'] = $contenidos_edicion;
+        }
+
+        return $lastnumber;
+        
     }
 }

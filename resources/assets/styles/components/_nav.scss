@@ -1,12 +1,14 @@
 .nav-primary {
   width: 100%;
+  max-width: 100%;
   position: fixed;
   top: -100vh;
   height: 100vh;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(255, 255, 255, 0.96);
   z-index: 10;
   transition: all ease-in 0.5s;
+  overflow: hidden;
 
   &.active {
     top: 0;
@@ -23,7 +25,7 @@
     a {
       font-size: 32px;
       font-weight: 600;
-      font-family: 'Crimson Text', sans-serif;
+      font-family: $text_font;
       color: #333;
     }
   }
@@ -34,7 +36,8 @@
 
   a.close {
     font-size: 42px;
-    margin-top: 42px;
+    margin-top: 45px;
+    margin-right: 24px;
   }
 
   a.social-link {
@@ -50,7 +53,17 @@
 }
 
 .page .banner .toggle,
+.archive .banner .toggle,
 .glosario-template-default .banner .toggle,
 .post-type-archive-ediciones .banner .toggle {
   color: #333;
+}
+
+.lastnumber {
+  margin: 48px 0 24px 30px;
+
+  h1.lastnumber-title {
+    font-family: $sans_font;
+    font-weight: normal;
+  }
 }

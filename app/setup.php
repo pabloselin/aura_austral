@@ -151,7 +151,9 @@ add_filter('sage/display_sidebar', function ($display) {
     return $display;
 });
 
-function archive_title( $title ) {
+
+ 
+add_filter( 'get_the_archive_title', function ( $title ) {
     if ( is_category() ) {
         $title = single_cat_title( '', false );
     } elseif ( is_tag() ) {
@@ -165,6 +167,4 @@ function archive_title( $title ) {
     }
   
     return $title;
-}
- 
-add_filter( 'get_the_archive_title', 'archive_title' );
+});

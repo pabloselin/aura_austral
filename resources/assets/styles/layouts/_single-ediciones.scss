@@ -1,9 +1,15 @@
-article.type-ediciones {
+.single-ediciones main.main article.type-ediciones {
   height: 100vh;
   padding-top: $header_height;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
+
+  header h1.entry-title {
+    font-size: 3.6rem;
+    font-family: $sans_font;
+    font-weight: normal;
+  }
 
   a {
     color: white;

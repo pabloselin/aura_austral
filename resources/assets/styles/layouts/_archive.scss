@@ -1,0 +1,12 @@
+.archive main.main {
+  header.archive-header {
+    margin-top: $header_height + 24px;
+    margin-bottom: 36px;
+
+    h2.entry-title {
+      a {
+        color: #333;
+      }
+    }
+  }
+}

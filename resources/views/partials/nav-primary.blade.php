@@ -6,15 +6,28 @@
 			</div>
 			<div class="col align-self-top"><a href="#" class="close"><i class="fas fa-times"></i></a></div>
 		</div>
+	</div>
+	<div class="container lastnumber">
 		
 		<div class="row">
-			<div class="col offset-md-1">
+			<div class="col">
+				<h1 class="lastnumber-title">{{ $lastnumber['title'] }}</h1>
+			</div>
+		</div>
+		<div class="row">
+			@foreach( $lastnumber['content'] as $item)
+				@include('partials.content-editem')
+			@endforeach
+		</div>
+		
+		
+		<div class="row menus-top no-gutters">
+			<div class="col-md">
 				@if (has_nav_menu('primary_navigation'))
 				{!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
 				@endif
 				
-			</div>
-			<div class="col">
+			
 				@if (has_nav_menu('secondary_navigation'))
 					{!! wp_nav_menu(['theme_location' => 'secondary_navigation', 'menu_class' => 'nav']) !!}
 				@endif
@@ -23,7 +36,5 @@
 			</div>
 		
 		</div>
-		
 	</div>
-
 </nav>

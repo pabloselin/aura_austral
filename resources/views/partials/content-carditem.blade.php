@@ -1,4 +1,4 @@
-<article class="carditem col-md-6 {{ $item->key }}"> 
+<article class="carditem col-lg-6 {{ $item->key }}"> 
   	<div class="wrap-carditem">
   	<a href="{{$item->link}}">
   		<img src="{{ $item->image_homeitem }}" alt="{{ $item->title }}">

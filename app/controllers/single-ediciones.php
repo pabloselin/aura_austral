@@ -6,8 +6,12 @@ use Sober\Controller\Controller;
 
 class SingleEdiciones extends Controller
 {
-	public function contenidos_edicion() {
-		global $post;
+	public function contenidos_edicion( $postid = null ) {
+		if($postid == null) {
+			global $post;
+			$postid = $post->ID;
+		}
+
 		$args = array(
 			'post_type' => 'any',
 			'numberposts' => -1,
@@ -15,7 +19,7 @@ class SingleEdiciones extends Controller
 		$args['meta_query'] = array(
 			array(
 				'key' => '_aau_edicion',
-				'value' => $post->ID
+				'value' => $postid
 			));
 		$contenidos = get_posts($args);
 
