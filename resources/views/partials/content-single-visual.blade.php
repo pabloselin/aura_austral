@@ -6,7 +6,7 @@
     <div class="carousel-inner">
       @foreach($visual_gallery as $key=>$image)
       <div class="carousel-item @if($key === 0) active @endif">
-        <img src=" {{ $image->large[0] }}" alt="" class="d-block w-100">
+        <img src=" {{ $image->large[0] }}" alt="" class="d-block">
         <div class="carousel-caption d-none d-md-block">
           <h5>{{ $image->title }}</h5>
           <p>{{ $image->legend }}</p>
@@ -23,8 +23,4 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-  <footer>
-    {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
-  </footer>
 </article>
