@@ -10,6 +10,11 @@
   transition: all ease-in 0.5s;
   overflow: hidden;
 
+  .menus-top {
+    text-align: right;
+    border-left: 1px dashed #ccc;
+  }
+
   &.active {
     top: 0;
   }

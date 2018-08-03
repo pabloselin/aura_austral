@@ -8,20 +8,21 @@
 		</div>
 	</div>
 	<div class="container lastnumber">
-		
 		<div class="row">
+			<div class="col-md-9">
+				<div class="row">
 			<div class="col">
 				<h1 class="lastnumber-title">{{ $lastnumber['title'] }}</h1>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row no-gutters">
 			@foreach( $lastnumber['content'] as $item)
 				@include('partials.content-editem')
 			@endforeach
 		</div>
-		
-		
-		<div class="row menus-top no-gutters">
+			</div>
+			<div class="col-md-3">
+				<div class="row menus-top no-gutters">
 			<div class="col-md">
 				@if (has_nav_menu('primary_navigation'))
 				{!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
@@ -36,5 +37,11 @@
 			</div>
 		
 		</div>
+			</div>
+		</div>
+		
+		
+		
+		
 	</div>
 </nav>
