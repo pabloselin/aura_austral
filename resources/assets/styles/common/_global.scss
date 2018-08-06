@@ -19,3 +19,21 @@ h6 {
   font-family: 'Crimson Text', serif;
   font-weight: 700;
 }
+
+.form-control {
+  border-radius: 0;
+}
+
+input.search-submit {
+  margin-left: 12px;
+}
+
+.alert {
+  border-radius: 0;
+}
+
+.alert-warning {
+  background-color: #ccc;
+  color: #333;
+  border: 0;
+}

@@ -5,10 +5,18 @@ footer.content-info {
 
 .seremi {
   text-align: right;
+
+  p {
+    float: right;
+    width: 200px;
+    margin-top: 60px;
+    margin-right: 24px;
+  }
 }
 
 .seremi img {
   max-width: 160px;
   height: auto;
-  margin: 6px 0;
+  margin: 6px 12px 6px 6px;
+  float: right;
 }
