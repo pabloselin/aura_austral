@@ -13,18 +13,6 @@
   top: 32px;
 }
 
-.social {
-  text-align: right;
-  font-size: 32px;
-  position: absolute;
-  right: 36px;
-  top: 36px;
-
-  a {
-    color: white;
-  }
-}
-
 .logo img {
   max-width: 200px;
   height: auto;
@@ -32,16 +20,12 @@
 }
 
 .logo img.isotipo {
-  max-width: 60px;
+  max-width: 45px;
+  padding: 6px 0 0 0;
 }
 
 .home .logo img {
   padding: 24px 0 0 32px;
-}
-
-.home .logo img.isotipo {
-  padding: 24px 0 0 0;
-  margin-left: 24px;
 }
 
 .banner .nav li {

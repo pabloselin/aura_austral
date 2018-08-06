@@ -1,6 +1,6 @@
 <article @php(post_class())>
   <header class="carousel-title">
-    <h1>{{ get_the_title() }}<h1>
+    <h1>{{ get_the_title() }}</h1>
   </header>
   <div id="aura_carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -22,5 +22,8 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+  <div class="content-visual">
+    <div class="entry-content-visual"><h1>{{ get_the_title() }}</h1> {{ the_content() }}</div>
   </div>
 </article>

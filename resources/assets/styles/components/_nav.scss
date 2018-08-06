@@ -51,16 +51,25 @@
   }
 }
 
-.banner .toggle {
+.banner a.toggle {
   font-size: 42px;
   color: white;
   display: block;
+  text-align: right;
+  position: absolute;
+  right: 36px;
+  top: 36px;
+
+  @include media-breakpoint-down(sm) {
+    right: 12px;
+    top: 6px;
+  }
 }
 
-.page .banner .toggle,
-.archive .banner .toggle,
-.glosario-template-default .banner .toggle,
-.post-type-archive-ediciones .banner .toggle {
+.page .banner a.toggle,
+.archive .banner a.toggle,
+.glosario-template-default .banner a.toggle,
+.post-type-archive-ediciones .banner a.toggle {
   color: #333;
 }
 
