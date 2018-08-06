@@ -8,11 +8,15 @@
   background-color: rgba(255, 255, 255, 0.96);
   z-index: 10;
   transition: all ease-in 0.5s;
-  overflow: hidden;
+  overflow: scroll;
 
   .menus-top {
     text-align: right;
     border-left: 1px dashed #ccc;
+
+    @include media-breakpoint-down(sm) {
+      border-left: 0;
+    }
   }
 
   &.active {
@@ -20,7 +24,7 @@
   }
 
   ul.nav {
-    padding: 32px 0 0 0;
+    padding: 64px 0 0 0;
     display: block;
 
     li {
@@ -28,8 +32,8 @@
     }
 
     a {
-      font-size: 32px;
-      font-weight: 600;
+      font-size: 24px;
+      font-weight: normal;
       font-family: $text_font;
       color: #333;
     }
@@ -78,8 +82,36 @@
 .lastnumber {
   margin: 48px 0 24px 30px;
 
+  @include media-breakpoint-down(sm) {
+    margin: 48px 0 24px 0;
+
+    .editem {
+      margin: 0 0 6px 0;
+      padding: 0 0 6px 0;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
   h1.lastnumber-title {
     font-family: $sans_font;
     font-weight: normal;
+
+    @include media-breakpoint-down(sm) {
+      margin: 0 0 12px 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .nav-primary {
+    a.close {
+      margin: 12px 0 0 0;
+    }
+
+    .logo-nav img {
+      max-width: 160px;
+      height: auto;
+      padding: 0;
+    }
   }
 }

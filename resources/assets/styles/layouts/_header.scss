@@ -13,19 +13,17 @@
   top: 32px;
 }
 
-.logo img {
+.logo img,
+.logo-nav img {
   max-width: 200px;
   height: auto;
   padding: 24px 0 0 32px;
 }
 
-.logo img.isotipo {
+.logo img.isotipo,
+.home .logo img.isotipo {
   max-width: 45px;
   padding: 6px 0 0 0;
-}
-
-.home .logo img {
-  padding: 24px 0 0 32px;
 }
 
 .banner .nav li {

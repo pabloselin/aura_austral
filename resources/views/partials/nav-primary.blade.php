@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col">
-				<a class="logo" href="{{ home_url('/') }}"><img src="{{ App\get_logo('dark') }}" /></a>
+				<a class="logo-nav" href="{{ home_url('/') }}"><img src="{{ App\get_logo('dark') }}" /></a>
 			</div>
 			<div class="col align-self-top"><a href="#" class="close"><i class="fas fa-times"></i></a></div>
 		</div>
