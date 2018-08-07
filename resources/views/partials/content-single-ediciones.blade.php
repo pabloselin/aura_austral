@@ -7,8 +7,11 @@
         </header>
 
         <div class="entry-content excerpt">
-          @php(the_excerpt())
+          @php(the_content())
         </div>
+        <p class="more-section">
+        <button class="btn continue">Seguir leyendo</button>
+        </p>
       </div>
     </div>
     <div class="row">
