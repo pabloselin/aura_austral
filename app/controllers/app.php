@@ -55,6 +55,7 @@ class App extends Controller
         $first_item = array_shift($homeitems);
 
         $navitems['number_title'] = $first_item->title;
+        $navitems['number_excerpt'] = get_the_excerpt($first_item->ID);
         $navitems['content'] = $homeitems;
         
 

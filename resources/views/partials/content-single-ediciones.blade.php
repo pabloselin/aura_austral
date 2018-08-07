@@ -7,8 +7,13 @@
         </header>
 
         <div class="entry-content excerpt">
-          @php(the_content())
-        </div>
+          {{ $navitems['number_excerpt'] }}
+       
+          <div class="fullcontent">
+            {{ the_content() }}
+          </div>
+          
+         </div>
         <p class="more-section">
         <button class="btn continue">Seguir leyendo</button>
         </p>

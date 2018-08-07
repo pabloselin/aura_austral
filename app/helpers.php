@@ -178,6 +178,8 @@ function get_post_type_name( $postid ) {
 function get_logo( $color = null ) {
     if(is_singular(['glosario']) || is_page() || is_archive() || is_404() || is_search() || $color === 'dark' ) {
         return get_template_directory_uri() . '/assets/images/aura_austral.png';
+    } else if(is_singular('visual')) {
+        return get_template_directory_uri() . '/assets/images/aura_mini_blanco.png';
     } else {
         return get_template_directory_uri() . '/assets/images/aura_austral_blanco.png';
     }
