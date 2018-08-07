@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["dist", "vendor"]
+		},
+		{
+			"path": "/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/plugins/aura-austral-custom-fields"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 2
+	}
+}

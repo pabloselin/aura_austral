@@ -37,3 +37,22 @@ input.search-submit {
   color: #333;
   border: 0;
 }
+
+.entry-content a {
+  border-bottom: 1px dashed $link_color;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 1px solid $link_color_dark;
+  }
+}
+
+#ez-toc-container {
+  a {
+    border-bottom: none;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}

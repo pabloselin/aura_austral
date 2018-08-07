@@ -13,4 +13,14 @@
   sup {
     padding: 0 6px;
   }
+
+  a,
+  a:hover {
+    border-bottom: none;
+  }
+}
+
+a.easy-footnote-to-top,
+a.easy-footnote-to-top:hover {
+  border-bottom: none;
 }

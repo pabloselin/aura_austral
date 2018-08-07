@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="row">
-         @foreach($contenidos_edicion as $item)
+         @foreach($navitems['content'] as $item)
             @include('partials.content-editem')
          @endforeach
     </div>

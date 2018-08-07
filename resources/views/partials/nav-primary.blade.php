@@ -12,11 +12,11 @@
 			<div class="col-md-9">
 				<div class="row">
 			<div class="col">
-				<h1 class="lastnumber-title">{{ $lastnumber['title'] }}</h1>
+				<h1 class="lastnumber-title">{{ $navitems['number_title'] }}</h1>
 			</div>
 		</div>
 		<div class="row no-gutters">
-			@foreach( $lastnumber['content'] as $item)
+			@foreach( $navitems['content'] as $item)
 				@include('partials.content-editem')
 			@endforeach
 		</div>
@@ -24,6 +24,9 @@
 			<div class="col-md-3">
 				<div class="row menus-top no-gutters">
 			<div class="col-md">
+				
+				<a href="{{ home_url('/') }}" class="link-home"><i class="fa fa-home"></i></a>
+
 				@if (has_nav_menu('primary_navigation'))
 				{!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
 				@endif

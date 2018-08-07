@@ -48,4 +48,16 @@ class App extends Controller
         return $lastnumber;
         
     }
+
+    public function navitems() {
+        $navitems = [];
+        $homeitems = FrontPage::home_items();
+        $first_item = array_shift($homeitems);
+
+        $navitems['number_title'] = $first_item->title;
+        $navitems['content'] = $homeitems;
+        
+
+        return $navitems;
+    }
 }

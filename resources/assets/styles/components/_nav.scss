@@ -8,7 +8,11 @@
   background-color: rgba(255, 255, 255, 0.96);
   z-index: 10;
   transition: all ease-in 0.5s;
-  overflow: scroll;
+  overflow: hidden;
+
+  @include media-breakpoint-down(sm) {
+    overflow: scroll;
+  }
 
   .menus-top {
     text-align: right;
@@ -23,8 +27,19 @@
     top: 0;
   }
 
+  a.link-home {
+    color: #333;
+    font-size: 24px;
+    display: block;
+    padding-top: 64px;
+
+    @include media-breakpoint-down(sm) {
+      padding-top: 0;
+    }
+  }
+
   ul.nav {
-    padding: 64px 0 0 0;
+    padding: 0;
     display: block;
 
     li {
