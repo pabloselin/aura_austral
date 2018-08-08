@@ -2,6 +2,10 @@ footer.content-info {
   padding: 24px 0;
   font-size: 0.8rem;
   opacity: 0.6;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 6px;
+  }
 }
 
 .seremi {
@@ -15,6 +19,7 @@ footer.content-info {
 
     @include media-breakpoint-down(sm) {
       margin-top: 6px;
+      margin-right: 0;
     }
   }
 }
@@ -24,4 +29,8 @@ footer.content-info {
   height: auto;
   margin: 6px 12px 6px 6px;
   float: right;
+
+  @include media-breakpoint-down(sm) {
+    margin: 0 0 6px 0;
+  }
 }

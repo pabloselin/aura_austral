@@ -1,11 +1,12 @@
 <article @php(post_class())>
   <div class="container">
+    <div class="entry-content">
   <header class="post-single">
         <h1 class="entry-title">{{ get_the_title() }}</h1>
         <span class="date">{{ get_the_date() }}</span>
   </header>
   
-    <div class="entry-content">
+    
       @php(the_content())
     </div>
   </div>

@@ -1,4 +1,5 @@
-.single main.main {
+.single main.main,
+.page main.main {
   header {
     h1.entry-title {
       font-size: 3.2rem;
@@ -8,8 +9,8 @@
       font-weight: 400;
 
       @include media-breakpoint-down(sm) {
-        padding: $header_height + 24px  0 12px 0;
-        font-size: 2.2rem;
+        padding: $mobile_header_height + 24px  0 12px 0;
+        font-size: 1.8rem;
       }
     }
 
@@ -18,6 +19,10 @@
       color: white;
       font-family: $util_font;
       font-size: 1.4rem;
+
+      @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+      }
     }
   }
 

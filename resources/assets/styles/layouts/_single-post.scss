@@ -1,6 +1,5 @@
 .single-post main.main {
   header {
-    max-width: 70%;
     margin: 0 auto 36px auto;
 
     span.date {
@@ -12,5 +11,9 @@
     text-shadow: none;
     color: #333;
     padding: $header_height 0 0 0;
+
+    @include media-breakpoint-down(sm) {
+      padding: $mobile_header_height + 12px 0 0 0;
+    }
   }
 }

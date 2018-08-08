@@ -30,3 +30,10 @@
     display: block;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .home .carditem {
+    padding: 0 10px;
+    margin-bottom: 24px;
+  }
+}
