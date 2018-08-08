@@ -98,6 +98,14 @@
 .lastnumber {
   margin: 48px 0 24px 30px;
 
+  .editem .wrap-carditem {
+    padding-right: 24px;
+
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+
   @include media-breakpoint-down(sm) {
     margin: 48px 0 24px 0;
 

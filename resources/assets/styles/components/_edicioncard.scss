@@ -32,7 +32,8 @@
   }
 }
 
-.edicioncard.draft {
+.edicioncard.draft,
+.edicioncard.future {
   opacity: 0.2;
 
   a {

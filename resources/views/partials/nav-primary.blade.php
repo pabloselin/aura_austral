@@ -9,7 +9,7 @@
 	</div>
 	<div class="container lastnumber">
 		<div class="row">
-			<div class="col-md-9">
+			<div class="col-md-10">
 				<div class="row">
 			<div class="col">
 				<h1 class="lastnumber-title">{{ $navitems['number_title'] }}</h1>
@@ -17,13 +17,12 @@
 		</div>
 		<div class="row no-gutters">
 			@foreach( $navitems['content'] as $item)
-				@include('partials.content-editem')
+				@include('partials.content-editem-nav')
 			@endforeach
 		</div>
 			</div>
-			<div class="col-md-3">
-				<div class="row menus-top no-gutters">
-			<div class="col-md">
+			<div class="col-md-2 menus-top">
+			
 				
 				<a href="{{ home_url('/') }}" class="link-home"><i class="fa fa-home"></i></a>
 
@@ -39,8 +38,7 @@
 				<a class="social-link" href="{{ App\get_instagram() }}"><i class="fab fa-instagram"></i></a>
 			</div>
 		
-		</div>
-			</div>
+	
 		</div>
 		
 		

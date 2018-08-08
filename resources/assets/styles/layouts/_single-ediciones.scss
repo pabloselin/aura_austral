@@ -16,7 +16,6 @@
   }
 
   .entry-content.excerpt {
-    max-height: 20vh;
     overflow: hidden;
     //text-shadow: 0.5px 0.5px 0 #151f26;
     transition: max-height ease-out 1s, background linear 1s;
@@ -40,10 +39,15 @@
   }
 
   .entry-content.excerpt.active {
-    max-height: 3000px;
     transition: max-height ease-in 1s, background linear 1s;
     background-color: rgba(0, 0, 0, 0.2);
     margin: 24px 0 24px 0;
+  }
+
+  .entry-content.excerpt .fullcontent {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed white;
   }
 
   .entry-content.excerpt .excerpt-more {
