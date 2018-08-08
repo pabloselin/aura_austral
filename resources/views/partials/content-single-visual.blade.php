@@ -8,10 +8,10 @@
       @foreach($visual_gallery as $key=>$image)
       <div class="carousel-item @if($key === 0) active @endif">
         <img src=" {{ $image->large[0] }}" alt="" class="d-block">
-        <div class="carousel-caption d-none d-md-block">
+        {{-- <div class="carousel-caption d-none d-md-block">
           <h5>{{ $image->title }}</h5>
           <p>{{ $image->legend }}</p>
-        </div>
+        </div> --}}
       </div>
       @endforeach
     </div>

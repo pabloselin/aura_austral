@@ -1,8 +1,12 @@
-<article @php(post_class())>
-  <header>
-    <h2 class="entry-title"><a href="{{ get_permalink() }}">{{ get_the_title() }}</a></h2>
-  </header>
-  <div class="entry-summary">
-    @php(the_excerpt())
-  </div>
+<article class="carditem col-lg-6 archiveitem"> 
+  	<div class="wrap-carditem">
+  	<a href="{{ get_permalink() }}">
+  		<img src="{{ get_the_post_thumbnail_url( null, 'medium' ) }}" alt="{{ get_the_title() }}">
+  		<h1>{{ get_the_title() }}</h1>
+  		<p class="byline author vcard plain">
+				{{ __('By', 'sage') }}
+				{{ get_the_author() }}
+			</p>	
+  	</a>
+  	</div>
 </article>

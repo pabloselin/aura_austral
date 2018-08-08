@@ -1,9 +1,11 @@
-.homeitem {
+.homeitem,
+.archiveitem-visual {
   margin-bottom: 32px;
   min-height: 300px;
   text-align: center;
 
-  .wrap-homeitem {
+  .wrap-homeitem,
+  .wrap-archiveitem {
     position: relative;
     background-color: #f0f0f0;
     background-repeat: no-repeat;

@@ -10,7 +10,7 @@
 </header>
 <div class="container">
   <div class="row">
-    <div class="col">
+    
       @if (!have_posts())
       <div class="alert alert-warning">
         {{ __('Sorry, no results were found.', 'sage') }}
@@ -24,6 +24,6 @@
 
       {!! get_the_posts_navigation() !!}
     </div>
-  </div>
+  
 </div>
 @endsection
