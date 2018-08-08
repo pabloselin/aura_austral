@@ -67,7 +67,9 @@
 
   a.social-link {
     color: #333;
-    font-size: 42px;
+    font-size: 32px;
+    display: inline-block;
+    margin-right: 6px;
   }
 }
 
@@ -138,4 +140,8 @@
       padding: 0;
     }
   }
+}
+
+.menu-principal-container {
+  margin-bottom: 36px;
 }

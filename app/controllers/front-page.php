@@ -12,6 +12,8 @@ class FrontPage extends Controller
 		//$post = get_post(20);
 
 		foreach($frontpage_items as $key=>$item) {
+			$postitem = get_post($item->object_id);
+
 			$width = 'col-6';
 			switch($key) {
 				case(0):
@@ -29,10 +31,9 @@ class FrontPage extends Controller
 				'link'  => get_permalink( $item->object_id ),
 				'type'	=> get_post_type_name( $item->object_id ),
 				'width' => $width,
-				'author'=> get_the_author_meta( 'display_name',  $item->post_author),
+				'author'=> get_the_author_meta( 'display_name',  $postitem->post_author),
 				'key'	=> 'homeitem-' . $key
 			);
-			
 			array_push($items, $thisitem);
 		}
 		return $items;

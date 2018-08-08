@@ -36,6 +36,7 @@
 				@endif
 
 				<a class="social-link" href="{{ App\get_instagram() }}"><i class="fab fa-instagram"></i></a>
+				<a href="{{ App\get_facebook() }}" class="social-link"><i class="fab fa-facebook"></i></a>
 			</div>
 		
 	

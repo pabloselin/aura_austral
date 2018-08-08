@@ -170,6 +170,10 @@ function get_instagram() {
     return 'https://www.instagram.com/auraaustral.cl/';
 }
 
+function get_facebook() {
+    return 'https://www.facebook.com/AURA-Autral-Arte-y-territorio-en-Magallanes-218835315639780/?hc_ref=ARQRu1sN90UayVR3M-TYKhbEGL5DYKe8Y7opivQlT6GP70Jj8ntYllcj6x5CzkrF0ac&fref=nf';
+}
+
 function get_post_type_name( $postid ) {
     $ptypeobj = get_post_type_object( get_post_type( $postid ) );
     return $ptypeobj->labels->name;

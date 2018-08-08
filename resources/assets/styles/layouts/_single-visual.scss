@@ -66,6 +66,13 @@ body.single.visual-template-default {
       font-weight: normal;
     }
 
+    span.author {
+      display: block;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     font-family: $text_font;
@@ -102,6 +109,13 @@ body.single.visual-template-default {
   h1 {
     font-family: $sans_font;
     font-weight: normal;
+    margin: 0;
+  }
+
+  p.author {
+    font-size: 1rem;
+    margin: 0;
+    text-align: right;
   }
 }
 

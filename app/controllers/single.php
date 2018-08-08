@@ -28,7 +28,7 @@ class Single extends Controller
 				'large' => wp_get_attachment_image_src( $image->ID, 'large' ),
 				'thumbnail' => wp_get_attachment_image_src( $image->ID, 'thumbnail' ),
 				'title' => $image->post_title,
-				'legend' => $image->post_content 
+				'legend' => $image->post_content
 				);
 			array_push($imageurls, $imagedata);
 		}

@@ -1,4 +1,4 @@
-<p class="byline author vcard">
-  {{ __('By', 'sage') }} 
-    {{ $author }}
+<p class="byline author vcard plain">
+  {{ __('By', 'sage') }}
+    {{ $item->author }}
 </p>
