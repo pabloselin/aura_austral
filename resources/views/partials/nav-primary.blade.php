@@ -9,7 +9,7 @@
 	</div>
 	<div class="container lastnumber">
 		<div class="row">
-			<div class="col-md-10">
+			<div class="col-md-9">
 				<div class="row">
 			<div class="col">
 				<h1 class="lastnumber-title">{{ $navitems['number_title'] }}</h1>
@@ -21,7 +21,7 @@
 			@endforeach
 		</div>
 			</div>
-			<div class="col-md-2 menus-top">
+			<div class="col-md-3 menus-top">
 			
 				
 				<a href="{{ home_url('/') }}" class="link-home"><i class="fa fa-home"></i></a>
@@ -37,6 +37,9 @@
 
 				<a target="_blank" class="social-link" href="{{ App\get_instagram() }}"><i class="fab fa-instagram"></i></a>
 				<a target="_blank" href="{{ App\get_facebook() }}" class="social-link"><i class="fab fa-facebook"></i></a>
+
+				<p class="mailto"><a href="mailto:{{ App\get_mail() }}"><i class="fas fa-envelope"></i> {{ App\get_mail() }}</a></p>
+
 			</div>
 		
 	

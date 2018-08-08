@@ -87,9 +87,9 @@ body.single.visual-template-default {
     overflow: scroll;
 
     .entry-content-visual {
-      margin: 0;
+      margin: $mobile_header_height + 40px auto 0;
       max-width: 100%;
-      padding: $mobile_header_height 12px 0 12px;
+      padding: $mobile_header_height 12px 12px 12px;
       font-size: 1rem;
     }
   }

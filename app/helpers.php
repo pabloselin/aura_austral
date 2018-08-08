@@ -174,6 +174,10 @@ function get_facebook() {
     return 'https://web.facebook.com/AuraAustral.cl/';
 }
 
+function get_mail() {
+    return 'auraaustral.cl@gmail.com';
+}
+
 function get_post_type_name( $postid ) {
     $ptypeobj = get_post_type_object( get_post_type( $postid ) );
     return $ptypeobj->labels->name;

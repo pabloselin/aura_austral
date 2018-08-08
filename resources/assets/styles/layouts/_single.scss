@@ -41,13 +41,15 @@
       max-width: 100%;
     }
 
-    figure {
+    figure,
+    iframe {
       margin: 3rem auto;
       max-width: 100%;
 
-      figcaption {
+      figcaption.wp-caption-text {
         font-size: 1rem;
         text-align: center;
+        color: #515a62;
       }
     }
   }

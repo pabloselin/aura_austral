@@ -5,6 +5,14 @@
   background-size: cover;
   background-attachment: fixed;
 
+  @include media-breakpoint-down(sm) {
+    padding-top: $mobile_header_height;
+
+    header h1.entry-title {
+      text-align: center;
+    }
+  }
+
   header h1.entry-title {
     font-size: 3.6rem;
     font-family: $sans_font;
@@ -21,6 +29,10 @@
     transition: max-height ease-out 1s, background linear 1s;
     padding: 24px;
     margin: -24px;
+  }
+
+  .editem {
+    margin-top: 0;
   }
 
   .editem h1 {

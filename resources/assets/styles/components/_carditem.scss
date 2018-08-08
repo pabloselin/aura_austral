@@ -15,7 +15,12 @@
   h1 {
     color: #333;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+
+  .post-type-name {
+    text-transform: uppercase;
   }
 
   .post-type-name,

@@ -28,6 +28,12 @@
     transition: top ease-out 0.5s;
   }
 
+  .mailto a {
+    color: #333;
+    font-family: $text_font;
+    font-size: 1.2rem;
+  }
+
   a.link-home {
     color: #333;
     font-size: 24px;
