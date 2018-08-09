@@ -107,12 +107,13 @@ body.single.visual-template-default {
     .entry-content-visual {
       margin: 0 auto 0;
       max-width: 100%;
-      padding: $mobile_header_height 12px 12px 12px;
+      padding: 0 12px 0 12px;
       font-size: 1rem;
       height: 100vh;
 
       h1 {
         font-size: 2rem;
+        padding-top: $mobile_header_height + 20px;
       }
 
       span.close {
