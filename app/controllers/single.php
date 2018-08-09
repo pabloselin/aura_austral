@@ -11,6 +11,16 @@ class Single extends Controller
 			return wp_get_attachment_image_src(get_post_thumbnail_id(), 'large', false);
 		}
 	}
+
+	public function fields() {
+		global $post;
+		$fields = [];
+
+		$fields['instagram'] = get_post_meta($post->ID, '_aau_instagram', true);
+
+		return $fields;
+	}
+
 	public function visual_gallery() {
 		global $post;
 		$imageurls = [];

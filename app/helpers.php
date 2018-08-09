@@ -200,3 +200,7 @@ function get_mobile_logo( $color = null ) {
         return get_template_directory_uri() . '/assets/images/aura_mini_blanco.png';
     }
 }
+
+function build_instagram_url( $user ) {
+    return 'https://instagram.com/' . $user;
+}
