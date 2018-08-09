@@ -2,9 +2,10 @@ body.single.visual-template-default {
   background-color: $dark;
 
   header.banner .logo img {
-    padding: 36px 12px 12px 12px;
-    max-width: 50px;
+    padding: 24px 12px 12px 24px;
+    max-width: 80px;
     margin: 0;
+    //background-color: rgba(33, 33, 26, 0.6);
 
     &.isotipo {
       max-width: 76px;
@@ -127,13 +128,15 @@ body.single.visual-template-default {
       }
 
       span.close {
-        bottom: 12px;
         top: auto;
+        right: auto;
         text-align: center;
-        position: fixed;
+        position: relative;
+        display: block;
+        width: 100%;
 
         &::after {
-          content: 'cerrar';
+          content: 'cerrar texto';
           display: block;
           width: 100%;
           font-family: sans-serif;
@@ -147,7 +150,7 @@ body.single.visual-template-default {
 
 .single.visual-template-default main.main header {
   height: auto;
-  background-color: $dark;
+  background-color: rgba(33, 33, 26, 0.6);
   color: white;
   position: absolute;
   bottom: 0;
@@ -155,6 +158,7 @@ body.single.visual-template-default {
   padding: 6px 24px;
   z-index: 5;
   margin: 0;
+  min-width: 460px;
 
   @include media-breakpoint-down(sm) {
     min-width: 300px;

@@ -1,7 +1,7 @@
 <article @php(post_class())>
   <header class="carousel-title">
     <h1>{{ get_the_title() }}</h1>
-    <div class="row">
+    <div class="row no-gutters">
     <p class="author col">{{ get_the_author() }}</p>
     <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
     </div>
@@ -30,8 +30,8 @@
   <div class="content-visual">
     <div class="entry-content-visual">
       <h1>{{ get_the_title() }}</h1> 
-      <div class="row">
-      <span class="author col">{{ get_the_author() }} <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a></span>
+      <div class="row no-gutters">
+      <span class="author col">{{ get_the_author() }}</span> <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
       </div>
        {{ the_content() }}
 
