@@ -168,3 +168,14 @@ add_filter( 'get_the_archive_title', function ( $title ) {
   
     return $title;
 });
+
+// Capabilities for editors
+
+// add simple_role capabilities, priority must be after the initial role definition
+add_action('init', function() {
+// gets the simple_role role object
+    $role = get_role('editor');
+ 
+    // add a new capability
+    $role->add_cap('edit_theme_options', true);
+}, 11);

@@ -25,6 +25,9 @@
     </a>
   </div>
   <div class="content-visual">
-    <div class="entry-content-visual"><h1>{{ get_the_title() }}</h1> <span class="author">{{ get_the_author() }}</span> {{ the_content() }}</div>
+    <div class="entry-content-visual">
+      <h1>{{ get_the_title() }}</h1> <span class="author">{{ get_the_author() }}</span> {{ the_content() }}
+      <span class="close"><i class="fas fa-times-circle"></i></span>
+    </div>
   </div>
 </article>
