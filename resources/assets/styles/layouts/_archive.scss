@@ -1,4 +1,5 @@
-.archive main.main {
+.archive main.main,
+.page-template-novedades main.main {
   header.archive-header {
     margin-top: $header_height + 24px;
     margin-bottom: 36px;
@@ -11,6 +12,20 @@
       a {
         color: #333;
       }
+    }
+  }
+
+  span.date {
+    color: #333;
+  }
+}
+
+.page-template-novedades main.main {
+  .wrap-carditem {
+    text-align: center;
+
+    h1 {
+      font-size: 2.2rem;
     }
   }
 }
