@@ -8,7 +8,7 @@
       text-align: center;
 
       @include media-breakpoint-down(sm) {
-        padding: $header_height + 24px  0 12px 0;
+        padding: $mobile_header_height + 24px  0 12px 0;
         font-size: 32px;
       }
     }

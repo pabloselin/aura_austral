@@ -2,6 +2,14 @@
   main.main {
     margin-top: $header_height;
 
+    @include media-breakpoint-down(sm) {
+      margin-top: $mobile_header_height;
+
+      .edicioncard {
+        margin-bottom: 24px;
+      }
+    }
+
     h1.ediciones-title {
       text-align: center;
       font-size: 3.6rem;

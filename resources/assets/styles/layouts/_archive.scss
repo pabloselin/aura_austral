@@ -3,6 +3,10 @@
     margin-top: $header_height + 24px;
     margin-bottom: 36px;
 
+    @include media-breakpoint-down(sm) {
+      margin-top: $mobile_header_height + 24px;
+    }
+
     h2.entry-title {
       a {
         color: #333;
