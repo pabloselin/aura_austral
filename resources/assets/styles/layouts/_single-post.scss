@@ -10,6 +10,7 @@
   header h1.entry-title {
     text-shadow: none;
     color: #333;
+    font-weight: 600;
     padding: $header_height 0 0 0;
 
     @include media-breakpoint-down(sm) {

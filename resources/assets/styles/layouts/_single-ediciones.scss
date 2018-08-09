@@ -36,8 +36,11 @@
   }
 
   .editem h1 {
-    text-shadow: 1px 1px 0 #151f26;
-    font-weight: 600;
+    font-weight: 700;
+
+    @include media-breakpoint-down(sm) {
+      text-shadow: 1px 1px 0 lighten(#151f26, 15%);
+    }
   }
 
   .more-section {
