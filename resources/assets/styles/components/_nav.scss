@@ -129,6 +129,10 @@
     font-family: $sans_font;
     font-weight: normal;
 
+    a {
+      color: #333;
+    }
+
     @include media-breakpoint-down(sm) {
       margin: 0 0 12px 0;
     }

@@ -39,6 +39,7 @@ class App extends Controller
         $lastedicion = get_posts($args);
 
         $lastnumber['title'] = $lastedicion[0]->post_title;
+
         
         if($lastedicion) {
             $contenidos_edicion = SingleEdiciones::contenidos_edicion($lastedicion[0]->ID);
@@ -53,9 +54,9 @@ class App extends Controller
         $navitems = [];
         $homeitems = FrontPage::home_items();
         $first_item = array_shift($homeitems);
-
         $navitems['number_title'] = $first_item->title;
-        $navitems['number_excerpt'] = get_the_excerpt($first_item->ID);
+        $navitems['number_excerpt'] = $first_item->excerpt;
+        $navitems['number_link'] = $first_item->link;
         $navitems['content'] = $homeitems;
         
 

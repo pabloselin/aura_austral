@@ -12,7 +12,7 @@
 			<div class="col-md-9">
 				<div class="row">
 			<div class="col">
-				<h1 class="lastnumber-title">{{ $navitems['number_title'] }}</h1>
+				<h1 class="lastnumber-title"><a href="{{ $navitems['number_link'] }}">{{ $navitems['number_title'] }}</a></h1>
 			</div>
 		</div>
 		<div class="row no-gutters">
