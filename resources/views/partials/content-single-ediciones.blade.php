@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="row">
-         @foreach($navitems['content'] as $item)
+         @foreach($contenidos_edicion as $item)
             @include('partials.content-editem')
          @endforeach
     </div>

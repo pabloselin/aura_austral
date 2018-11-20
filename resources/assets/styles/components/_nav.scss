@@ -128,9 +128,22 @@
   h1.lastnumber-title {
     font-family: $sans_font;
     font-weight: normal;
+    margin-bottom: 24px;
+    text-transform: uppercase;
 
     a {
       color: #333;
+
+      span {
+        font-size: 1.4rem;
+        font-weight: normal;
+        text-transform: lowercase;
+        display: block;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     @include media-breakpoint-down(sm) {

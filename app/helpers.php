@@ -204,3 +204,11 @@ function get_mobile_logo( $color = null ) {
 function build_instagram_url( $user ) {
     return 'https://instagram.com/' . $user;
 }
+
+add_action( 'wp_head', function() {
+     global $post;
+    $css = get_post_meta( $post->ID, '_aau_customcss', true );
+    if($css && is_singular( 'ediciones' )) {
+        echo '<style>' . $css . '</style>';
+    }
+});

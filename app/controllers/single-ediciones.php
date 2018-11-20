@@ -11,7 +11,6 @@ class SingleEdiciones extends Controller
 			global $post;
 			$postid = $post->ID;
 		}
-
 		$args = array(
 			'post_type' => 'any',
 			'numberposts' => -1,
@@ -22,7 +21,6 @@ class SingleEdiciones extends Controller
 				'value' => $postid
 			));
 		$contenidos = get_posts($args);
-
 		$items = [];
 
 		if($contenidos) {
@@ -40,4 +38,5 @@ class SingleEdiciones extends Controller
 
 		return $items;
 	}
+	
 }

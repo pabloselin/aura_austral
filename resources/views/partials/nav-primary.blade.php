@@ -11,15 +11,12 @@
 		<div class="row">
 			<div class="col-md-9">
 				<div class="row">
-			<div class="col">
-				<h1 class="lastnumber-title"><a href="{{ $navitems['number_link'] }}">{{ $navitems['number_title'] }}</a></h1>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			@foreach( $navitems['content'] as $item)
-				@include('partials.content-editem-nav')
-			@endforeach
-		</div>
+					<div class="col">
+						@foreach( $navitems['ediciones'] as $edicion)
+							<h1 class="lastnumber-title"><a href="{{ $edicion['link'] }}">{{ $edicion['title'] }} <span>{{ $edicion['fecha']}}</span> </a></h1>
+						@endforeach
+					</div>
+				</div>
 			</div>
 			<div class="col-md-3 menus-top">
 			

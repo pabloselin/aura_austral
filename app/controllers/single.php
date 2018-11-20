@@ -44,4 +44,16 @@ class Single extends Controller
 		}
 		return $imageurls;
 	}
+
+	public function numero() {
+		global $post;
+		$num = get_post_meta( $post->ID, '_aau_edicion', true);
+		$numero = array();
+		if($num) {
+			$numero['titulo'] = get_the_title( $num );
+			$numero['link']	  = get_permalink( $num );
+		}
+
+		return $numero;
+	}
 }

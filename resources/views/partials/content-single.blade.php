@@ -4,6 +4,7 @@
       <div class="container">
         <h1 class="entry-title">{{ get_the_title() }}</h1>
         @include('partials/entry-meta')
+         <span class="numero"><a href="{{ $numero['link']}}">{{ $numero['titulo']}}</a></span>
       </div>
     </div>
   </header>

@@ -1,3 +1,15 @@
+header span.numero {
+  a {
+    color: white;
+    font-family: $sans_font;
+    text-transform: uppercase;
+  }
+
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
 .single main.main,
 .page main.main {
   header {
