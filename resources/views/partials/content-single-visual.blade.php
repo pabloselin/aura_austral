@@ -34,7 +34,7 @@
       <span class="author col">{{ get_the_author() }}</span> <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
       </div>
        {{ the_content() }}
-
+      <p class="numero"><a href="{{ $numero['link']}}">{{ $numero['titulo']}}</a></p>
       <span class="close"><i class="fas fa-times-circle"></i></span>
     </div>
   </div>

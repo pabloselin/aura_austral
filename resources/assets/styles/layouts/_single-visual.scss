@@ -118,6 +118,19 @@ body.single.visual-template-default {
     font-size: 1.3rem;
   }
 
+  p.numero {
+    position: absolute;
+    bottom: 0;
+    right: 6px;
+    font-family: $sans_font;
+    font-size: 1rem;
+    margin: 0;
+
+    a {
+      color: white;
+    }
+  }
+
   @include media-breakpoint-down(sm) {
     overflow: scroll;
 
