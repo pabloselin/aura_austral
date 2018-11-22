@@ -9,11 +9,22 @@
 	</div>
 	<div class="container lastnumber">
 		<div class="row">
-			<div class="col-md-9">
+			<div class="col-md-9 lastnumber-contents">
 				<div class="row">
 					<div class="col">
 						@foreach( $navitems['ediciones'] as $edicion)
-							<h1 class="lastnumber-title"><a href="{{ $edicion['link'] }}">{{ $edicion['title'] }} <span>{{ $edicion['fecha']}}</span> </a></h1>
+						
+							<h1 class="lastnumber-title"><a href="{{ $edicion['link'] }}">{{ $edicion['title'] }} <span>{{ $edicion['fecha']}}</span> </a> <a title="Ver contenidos {{ $edicion['title'] }}" class="plus-ed collapsed" data-toggle="collapse" href="#contenidos-edicion-{{ $edicion['id'] }}">+</a></h1>
+							<div class="collapse" id="contenidos-edicion-{{ $edicion['id'] }}">
+								<div class="row">
+								@foreach( $edicion['content'] as $item)
+									<div class="mini-item col-sm-4">
+										<h4><a href="{{ $item->link }}">{{ $item->title }}</a></h4>
+										<span class="autor">{{ $item->author}}</span>
+									</div>
+								@endforeach
+								</div>
+							</div>
 						@endforeach
 					</div>
 				</div>

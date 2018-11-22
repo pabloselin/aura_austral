@@ -1,3 +1,9 @@
+@import "mini-item";
+
+body.menuopen {
+  overflow: hidden;
+}
+
 .nav-primary {
   width: 100%;
   max-width: 100%;
@@ -8,7 +14,7 @@
   background-color: rgba(255, 255, 255, 0.96);
   z-index: 10;
   transition: top ease-in 0.5s;
-  overflow: hidden;
+  overflow: auto;
 
   @include media-breakpoint-down(sm) {
     overflow: scroll;
@@ -130,6 +136,20 @@
     font-weight: normal;
     margin-bottom: 24px;
     text-transform: uppercase;
+    position: relative;
+
+    a.plus-ed {
+      position: absolute;
+      right: 12px;
+      top: 0;
+      font-size: 3.2rem;
+      transform: rotate(-45deg);
+      transition: transform 0.2s ease-in;
+
+      &.collapsed {
+        transform: rotate(0deg);
+      }
+    }
 
     a {
       color: #333;

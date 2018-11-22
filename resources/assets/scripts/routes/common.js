@@ -6,11 +6,13 @@ export default {
 		$(".toggle").on('click', function(e) {
 			e.preventDefault();
 			$('.nav-primary').addClass('active');
+			$('body').addClass('menuopen');
 		});
 
 		$(".close").on('click', function(e) {
 			e.preventDefault();
 			$(".nav-primary").removeClass('active');
+			$('body').removeClass('menuopen');
 		})
 	},
 	finalize() {

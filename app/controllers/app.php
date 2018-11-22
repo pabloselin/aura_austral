@@ -58,7 +58,10 @@ class App extends Controller
         foreach($ediciones as $key=>$edicion) {
             $ediciones_data[$key]['link'] = get_permalink($edicion->ID);
             $ediciones_data[$key]['title'] = $edicion->post_title;
+            $ediciones_data[$key]['id'] = $edicion->ID;
             $ediciones_data[$key]['fecha'] = mysql2date( 'F Y', $edicion->post_date, true );
+            $ediciones_data[$key]['content'] = SingleEdiciones::contenidos_edicion($edicion->ID);
+
         }
 
         return $ediciones_data;
