@@ -112,9 +112,10 @@ body.single.visual-template-default {
     color: white;
     font-family: $text_font;
     max-width: 90%;
-    width: 600px;
+    overflow: auto;
+    width: 800px;
     padding: 24px;
-    margin: $header_height auto 0;
+    margin: 60px auto 0;
     font-size: 1.3rem;
   }
 
