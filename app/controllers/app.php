@@ -40,12 +40,6 @@ class App extends Controller
 
         $lastnumber['title'] = $lastedicion[0]->post_title;
 
-        
-        if($lastedicion) {
-            $contenidos_edicion = SingleEdiciones::contenidos_edicion($lastedicion[0]->ID);
-            $lastnumber['content'] = $contenidos_edicion;
-        }
-
         return $lastnumber;
         
     }
@@ -69,14 +63,7 @@ class App extends Controller
 
     public function navitems() {
         $navitems = [];
-        $homeitems = FrontPage::home_items();
-        $first_item = array_shift($homeitems);
         $navitems['ediciones'] = App::ediciones();
-        $navitems['number_excerpt'] = $first_item->excerpt;
-        $navitems['number_link'] = $first_item->link;
-        $navitems['content'] = $homeitems;
-        
-
         return $navitems;
     }
 

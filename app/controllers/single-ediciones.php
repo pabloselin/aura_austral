@@ -23,7 +23,7 @@ class SingleEdiciones extends Controller
 			));
 		$contenidos = get_posts($args);
 		$items = [];
-		$orden = get_post_meta( $post->ID, '_aau_edicion_orden', true);
+		$orden = get_post_meta( $postid, '_aau_edicion_orden', true);
 
 		if($contenidos) {
 			foreach($contenidos as $contenido) {
