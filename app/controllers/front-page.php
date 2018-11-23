@@ -29,7 +29,6 @@ class FrontPage extends Controller
 				'image' => get_the_post_thumbnail_url( $item->object_id, 'large' ),
 				'image_homeitem' => get_the_post_thumbnail_url( $item->object_id, 'homeitem' ),
 				'link'  => get_permalink( $item->object_id ),
-				'excerpt' => get_the_excerpt( $item->object_id ),
 				'type'	=> get_post_type_name( $item->object_id ),
 				'width' => $width,
 				'author'=> get_the_author_meta( 'display_name',  $postitem->post_author),

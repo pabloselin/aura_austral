@@ -69,12 +69,12 @@ add_filter('comments_template', function ($comments_template) {
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
 
-add_action('rest_api_init', function () {
-  register_rest_route( 'auraaustral/v1', 'taxtree',array(
-                'methods'  => 'GET',
-                'callback' => 'App::taxtreetransient'
-      ));
-});
+// add_action('rest_api_init', function () {
+//   register_rest_route( 'auraaustral/v1', 'taxtree',array(
+//                 'methods'  => 'GET',
+//                 'callback' => 'App::taxtreetransient'
+//       ));
+// });
 
 
 add_action('init', function() {
@@ -108,3 +108,17 @@ add_action( 'init', function() {
     $labels->menu_name = 'Novedades';
     $labels->name_admin_bar = 'Novedades';
 } );
+
+add_action('pre_get_posts', function($query) {
+     //gets the global query var object
+    global $wp_query;
+    
+    if ( !$query->is_main_query() )
+        return;
+
+    if(is_author( )) {
+        $query->set('post_type' ,'any');
+        //we remove the actions hooked on the '__after_loop' (post navigation)
+        remove_all_actions ( '__after_loop');    
+    } 
+});

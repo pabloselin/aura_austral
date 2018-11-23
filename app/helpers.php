@@ -206,9 +206,11 @@ function build_instagram_url( $user ) {
 }
 
 add_action( 'wp_head', function() {
-     global $post;
-    $css = get_post_meta( $post->ID, '_aau_customcss', true );
-    if($css && is_singular( 'ediciones' )) {
-        echo '<style>' . $css . '</style>';
+    global $post;
+    if(is_singular( 'ediciones' )) {
+        $css = get_post_meta( $post->ID, '_aau_customcss', true );
+        if($css && is_singular( 'ediciones' )) {
+            echo '<style>' . $css . '</style>';
+        }
     }
 });

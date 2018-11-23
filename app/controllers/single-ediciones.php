@@ -6,7 +6,7 @@ use Sober\Controller\Controller;
 
 class SingleEdiciones extends Controller
 {
-	public function contenidos_edicion( $postid = null ) {
+	public static function contenidos_edicion( $postid = null ) {
 		if($postid == null) {
 			global $post;
 			$postid = $post->ID;

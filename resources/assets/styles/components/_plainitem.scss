@@ -7,11 +7,15 @@
     margin-bottom: 24px;
   }
 
-  h1 a {
-    color: #333;
+  h1 {
+    line-height: 1.2em;
     font-size: 1.6rem;
     font-weight: 600;
     margin-top: 0;
+  }
+
+  h1 a {
+    color: #333;
 
     &:hover {
       text-decoration: underline;
