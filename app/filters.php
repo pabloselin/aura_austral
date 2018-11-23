@@ -82,3 +82,29 @@ add_action('init', function() {
     $author_slug = 'autoria'; // change slug name
     $wp_rewrite->author_base = $author_slug;
 });
+ 
+add_action( 'admin_menu', function() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Novedades';
+    $submenu['edit.php'][5][0] = 'Novedades';
+    $submenu['edit.php'][10][0] = 'Añadir Novedad';
+    $submenu['edit.php'][16][0] = 'Novedades Tags';
+} );
+add_action( 'init', function() {
+    global $wp_post_types;
+    $labels = &$wp_post_types['post']->labels;
+    $labels->name = 'Novedades';
+    $labels->singular_name = 'Novedad';
+    $labels->add_new = 'Añadir Novedades';
+    $labels->add_new_item = 'Añadir Novedades';
+    $labels->edit_item = 'Editar Novedades';
+    $labels->new_item = 'Novedades';
+    $labels->view_item = 'Ver Novedades';
+    $labels->search_items = 'Buscar Novedades';
+    $labels->not_found = 'No se encontraron Novedades';
+    $labels->not_found_in_trash = 'No hay Novedades en la papelera';
+    $labels->all_items = 'Todas las Novedades';
+    $labels->menu_name = 'Novedades';
+    $labels->name_admin_bar = 'Novedades';
+} );
