@@ -75,3 +75,10 @@ add_action('rest_api_init', function () {
                 'callback' => 'App::taxtreetransient'
       ));
 });
+
+
+add_action('init', function() {
+    global $wp_rewrite;
+    $author_slug = 'autoria'; // change slug name
+    $wp_rewrite->author_base = $author_slug;
+});

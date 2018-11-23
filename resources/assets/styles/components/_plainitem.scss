@@ -1,0 +1,31 @@
+.plainitem {
+  margin-bottom: 48px;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  h1 a {
+    color: #333;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 0;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .post-type-name {
+    text-transform: uppercase;
+  }
+
+  .post-type-name,
+  .author {
+    color: #555;
+    font-size: 0.8rem;
+    display: block;
+  }
+}
