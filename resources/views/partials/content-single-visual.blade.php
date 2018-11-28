@@ -3,7 +3,9 @@
     <h1>{{ get_the_title() }}</h1>
     <div class="row no-gutters">
     <p class="author col">{{ get_the_author() }}</p>
-    <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
+     @if($fields['instagram']) 
+      <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
+    @endif
     </div>
   </header>
   <div id="aura_carousel" class="carousel slide" data-ride="carousel">
