@@ -83,6 +83,7 @@ body.single.visual-template-default {
 
   .entry-content-visual {
     position: relative;
+    z-index: 10;
 
     h1 {
       font-family: $sans_font;
@@ -142,10 +143,16 @@ body.single.visual-template-default {
       font-size: 1rem;
       max-height: 100vh;
       height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
 
       h1 {
         font-size: 1.6rem;
         padding-top: 70px;
+      }
+
+      .visual-autor-links {
+        margin-bottom: 12px;
+        border-bottom: 1px dashed #ccc;
       }
 
       span.author {
@@ -153,21 +160,14 @@ body.single.visual-template-default {
       }
 
       span.close {
-        top: auto;
-        right: auto;
+        top: 21px;
+        right: 14px;
         text-align: center;
-        position: relative;
+        //position: relative;
         display: block;
-        width: 100%;
-
-        &::after {
-          content: 'cerrar texto';
-          display: block;
-          width: 100%;
-          font-family: sans-serif;
-          font-size: 0.8rem;
-          font-weight: normal;
-        }
+        width: auto;
+        font-size: 2rem;
+        opacity: 1;
       }
     }
   }

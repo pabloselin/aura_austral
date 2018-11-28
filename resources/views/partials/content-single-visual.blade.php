@@ -30,8 +30,11 @@
   <div class="content-visual">
     <div class="entry-content-visual">
       <h1>{{ get_the_title() }}</h1> 
-      <div class="row no-gutters">
-      <span class="author col">{{ get_the_author() }}</span> <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a>
+      <div class="row no-gutters visual-autor-links">
+      <span class="author col">{{ get_the_author() }}</span> 
+      @if($fields['instagram']) 
+        <a class="insta col" target="_blank" href="{{ App\build_instagram_url($fields['instagram'])}}"><i class="fab fa-instagram"></i> {{ $fields['instagram'] }}</a> 
+      @endif
       </div>
        {{ the_content() }}
       <p class="numero"><a href="{{ $numero['link']}}">{{ $numero['titulo']}}</a></p>
