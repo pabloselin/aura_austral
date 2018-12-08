@@ -109,16 +109,16 @@ add_action( 'init', function() {
     $labels->name_admin_bar = 'Novedades';
 } );
 
-add_action('pre_get_posts', function($query) {
-     //gets the global query var object
-    global $wp_query;
+// add_action('pre_get_posts', function($query) {
+//      //gets the global query var object
+//     global $wp_query;
     
-    if ( !$query->is_main_query() )
-        return;
+//     if ( !$query->is_main_query() )
+//         return;
 
-    if(is_author( )) {
-        $query->set('post_type' ,'any');
-        //we remove the actions hooked on the '__after_loop' (post navigation)
-        remove_all_actions ( '__after_loop');    
-    } 
-});
+//     if(is_author( )) {
+//         $query->set('post_type' ,'any');
+//         //we remove the actions hooked on the '__after_loop' (post navigation)
+//         remove_all_actions ( '__after_loop');    
+//     } 
+// });
