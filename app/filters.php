@@ -69,12 +69,12 @@ add_filter('comments_template', function ($comments_template) {
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
 
-// add_action('rest_api_init', function () {
-//   register_rest_route( 'auraaustral/v1', 'taxtree',array(
-//                 'methods'  => 'GET',
-//                 'callback' => 'App::taxtreetransient'
-//       ));
-// });
+add_action('rest_api_init', function () {
+  register_rest_route( 'auraaustral/v1', 'taxtree',array(
+                'methods'  => 'GET',
+                'callback' => 'App::taxtreetransient'
+      ));
+});
 
 
 add_action('init', function() {
@@ -109,6 +109,7 @@ add_action( 'init', function() {
     $labels->name_admin_bar = 'Novedades';
 } );
 
+// BAD filter
 // add_action('pre_get_posts', function($query) {
 //      //gets the global query var object
 //     global $wp_query;

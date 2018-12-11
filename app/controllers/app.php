@@ -44,6 +44,50 @@ class App extends Controller
         
     }
 
+    public function taxtree() {
+        /* Busca todas las taxonomías y devuelve una lista de los contenidos en cada taxonomía separados por números */
+        $taxtree = array();
+
+        $taxonomies = get_taxonomies( array(
+            '_builtin'  => false,
+            'public'    => true
+        ));
+        $ediciones = get_posts( array(
+            'post_type' => 'ediciones',
+            'numberposts' => -1
+        ));
+        if($taxonomies && $ediciones) {
+            foreach($ediciones as $edicion) {
+                foreach($taxonomies as $taxonomy) {
+                    $terms = get_terms( array('taxonomy' => $taxonomy, 'hide_empty' => false ));
+
+                    foreach($terms as $term) {
+                        $items = get_posts(array(
+                            'post_type' => 'any',
+                            'numberposts' => -1,
+                            'tax_query' => array(
+                                array(
+                                    'taxonomy' => $taxonomy,
+                                    'terms' => array($term->name)
+                                ),
+                            'meta_query' => array(
+                                array(
+                                    'key' => '_aau_edicion',
+                                    'value' => $edicion->ID
+                                    )
+                                )
+                            )
+                        ));
+                        $taxtree[$edicion->ID][$taxonomy][$term->slug]['metadata'] = get_term_meta( $term->term_id );
+                        $taxtree[$edicion->ID][$taxonomy][$term->slug]['items'] = $items;
+                    }
+                }
+            }
+        }
+
+        return $taxtree;
+    }
+
     public function ediciones() {
         $args = array( 'post_type' => 'ediciones', 'post_status' => 'publish');
 
