@@ -25,5 +25,11 @@
          @endforeach
     </div>
   </div>
-  
 </article>
+
+<div class="visualizacion_trigger"><i class="fas fa-project-diagram"></i></div>
+
+<div class="visualizacion_wrapper">
+  <div class="visualizacion_close"><i class="fas fa-times"></i></div>
+  <div id="aura_visualizacion" data-url="@php(bloginfo('url'))" data-edicion="@php(_e($post->post_name))"></div>
+</div>

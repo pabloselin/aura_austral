@@ -58,34 +58,103 @@ class App extends Controller
         ));
         if($taxonomies && $ediciones) {
             foreach($ediciones as $edicion) {
-                foreach($taxonomies as $taxonomy) {
-                    $terms = get_terms( array('taxonomy' => $taxonomy, 'hide_empty' => false ));
+                    $articulos_edicion = get_posts(array(
+                        'post_type' => 'any',
+                        'post_status' => 'publish',
+                        'numberposts' => -1,
+                        'meta_value' => $edicion->ID,
+                        'meta_key'   => '_aau_edicion'
+                    ));
 
-                    foreach($terms as $term) {
-                        $items = get_posts(array(
-                            'post_type' => 'any',
-                            'numberposts' => -1,
-                            'tax_query' => array(
-                                array(
-                                    'taxonomy' => $taxonomy,
-                                    'terms' => array($term->name)
-                                ),
-                            'meta_query' => array(
-                                array(
-                                    'key' => '_aau_edicion',
-                                    'value' => $edicion->ID
+                    if($articulos_edicion) {
+                        foreach($articulos_edicion as $articulo) {
+                            
+                            foreach($taxonomies as $taxonomy) {
+
+                            $terms = get_the_terms( $articulo->ID, $taxonomy );
+
+                            foreach($terms as $term) {
+                                $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
+                                    'group' => 'edges',
+                                    'data' => array(
+                                        'id' => 'edge-article-' . $term->term_id . '-' . $articulo->ID,
+                                        'source' => $term->term_id,
+                                        'target' => 'articulo-' . $articulo->ID 
                                     )
+                                );
+                            }
+
+                            $thumb = get_post_thumbnail_id( $articulo->ID );
+                            $thumbsrc = wp_get_attachment_image_src( $thumb, 'thumbnail' );
+                            
+
+                            $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
+                                'group' => 'nodes',
+                                'data' => array(
+                                    'postid' => $articulo->ID,
+                                    'id' => 'articulo-' . $articulo->ID,
+                                    'name' => $articulo->post_title,
+                                    'link'  => get_permalink($articulo->ID),
+                                    'slug'  => $articulo->post_name,
+                                    'type'  => 'articulo',
+                                    'img'   => $thumbsrc
                                 )
-                            )
-                        ));
-                        $taxtree[$edicion->ID][$taxonomy][$term->slug]['metadata'] = get_term_meta( $term->term_id );
-                        $taxtree[$edicion->ID][$taxonomy][$term->slug]['items'] = $items;
+                            );
+                            }
+                        }
+                    }
+                foreach($taxonomies as $taxonomy) {
+                    $taxobj = get_taxonomy( $taxonomy );
+                    $terms = get_terms( array('taxonomy' => $taxonomy, 'hide_empty' => true ));
+                        $taxtree[$edicion->post_name][$taxonomy]['tax_label'] = $taxobj->label;
+                        $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
+                                                                        'group' => 'nodes',
+                                                                        'data'  => array(
+                                                                                    'name' => $edicion->post_title,
+                                                                                    'id'   => 'edicion-' . $edicion->post_name,
+                                                                                    'type' => 'edicion'
+                                                                                ),
+                                                                        'position' => array('x' => 10, 'y' => 10)
+                                                                        );
+                    foreach($terms as $term) {
+                        $termarts = array();
+                        
+                        $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
+                                                                        'group' => 'nodes',
+                                                                        'data' => array(
+                                                                                'name' => $term->name,
+                                                                                'slug' => $term->slug,
+                                                                                'id'   => $term->term_id,
+                                                                                'type' => 'term'
+                                                                                )        
+                                                                        );
                     }
                 }
             }
         }
 
         return $taxtree;
+    }
+
+    public  static function taxtreetransient() {
+        // Get any existing copy of our transient data
+        if ( false === ($taxtree = get_transient( 'taxtree' ) ) ) {
+            // It wasn't there, so regenerate the data and save the transient
+            $taxtree = App::taxtree();
+
+            if('WP_ENV' == 'development') 
+            {
+                $transient_expires = 1;
+            }
+            else {
+                $transient_expires = 12 * HOUR_IN_SECONDS;
+            }
+
+                set_transient( 'taxtree', $taxtree, $transient_expires );
+            
+        }
+
+       return $taxtree;
     }
 
     public function ediciones() {

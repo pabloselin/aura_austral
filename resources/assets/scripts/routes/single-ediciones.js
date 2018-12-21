@@ -19,6 +19,6 @@ export default {
 				fullcontent.show();
 				$(this).addClass('toggled').text('Cerrar');
 			}
-		})
+		});
 	},
 }

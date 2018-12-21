@@ -31,10 +31,10 @@ jQuery(document).ready(() => routes.loadEvents());
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 // import the Facebook and Twitter icons
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faTimes, faHome, faEnvelope, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faHome, faEnvelope, faTimesCircle, faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
 
 // add the imported icons to the library
-library.add( faInstagram, faBars, faTimes, faHome, faFacebook, faEnvelope, faTimesCircle );
+library.add( faInstagram, faBars, faTimes, faHome, faFacebook, faEnvelope, faTimesCircle, faProjectDiagram );
 // tell FontAwesome to watch the DOM and add the SVGs when it detects icon markup
 dom.watch();
 
