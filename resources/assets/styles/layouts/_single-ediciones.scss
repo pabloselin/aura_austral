@@ -94,14 +94,21 @@
   display: none;
 }
 
+.visrow {
+  text-align: center;
+}
+
 .visualizacion_trigger {
   color: white;
   padding: 12px;
-  font-size: 36px;
-  position: fixed;
-  bottom: 0;
-  left: 24px;
+  font-size: 24px;
   cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid white;
+  z-index: 10;
 }
 
 .visualizacion_wrapper {

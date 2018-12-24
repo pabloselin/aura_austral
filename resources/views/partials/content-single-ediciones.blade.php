@@ -24,10 +24,11 @@
             @include('partials.content-editem')
          @endforeach
     </div>
+    <div class="row visrow">
+      <button class="btn visualizacion_trigger"><i class="far fa-circle"></i> Visualización</button>
+    </div>
   </div>
 </article>
-
-<div class="visualizacion_trigger"><i class="fas fa-project-diagram"></i></div>
 
 <div class="visualizacion_wrapper">
   <div class="visualizacion_close"><i class="fas fa-times"></i></div>
