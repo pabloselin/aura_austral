@@ -24,13 +24,12 @@
             @include('partials.content-editem')
          @endforeach
     </div>
-    <div class="row visrow">
-      <button class="btn visualizacion_trigger"><i class="far fa-circle"></i> Visualización</button>
-    </div>
+  </div>
+  <div class="viscenter">
+      <h1 class="vistitle">Mapa</h1>
+  </div>
+  <div class="viswrap">
+      <div id="aura_visualizacion" data-url="@php(bloginfo('url'))" data-edicion="@php(_e($post->post_name))"></div>
   </div>
 </article>
 
-<div class="visualizacion_wrapper">
-  <div class="visualizacion_close"><i class="fas fa-times"></i></div>
-  <div id="aura_visualizacion" data-url="@php(bloginfo('url'))" data-edicion="@php(_e($post->post_name))"></div>
-</div>
