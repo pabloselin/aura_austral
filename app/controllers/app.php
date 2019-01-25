@@ -72,6 +72,7 @@ class App extends Controller
                             foreach($taxonomies as $taxonomy) {
 
                             $terms = get_the_terms( $articulo->ID, $taxonomy );
+                            $terms_width_edges = array();
 
                             foreach($terms as $term) {
                                 $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
@@ -82,6 +83,7 @@ class App extends Controller
                                         'target' => 'articulo-' . $articulo->ID 
                                     )
                                 );
+                                $terms_width_edges[] = $term->term_id;
                             }
 
                             $thumb = get_post_thumbnail_id( $articulo->ID );
@@ -119,21 +121,111 @@ class App extends Controller
                     foreach($terms as $term) {
                         $termarts = array();
                         
-                        $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
-                                                                        'group' => 'nodes',
-                                                                        'data' => array(
-                                                                                'name' => $term->name,
-                                                                                'slug' => $term->slug,
-                                                                                'id'   => $term->term_id,
-                                                                                'type' => 'term'
-                                                                                )        
-                                                                        );
-                    }
+                            $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
+                                                                            'group' => 'nodes',
+                                                                            'data' => array(
+                                                                                    'name' => $term->name,
+                                                                                    'slug' => $term->slug,
+                                                                                    'id'   => $term->term_id,
+                                                                                    'type' => 'term'
+                                                                                    )        
+                                                                            );
+                            }
+                    
                 }
             }
         }
 
         return $taxtree;
+    }
+
+    public static function globaltaxtree() {
+         $globaltaxtree = array();
+
+        $taxonomies = get_taxonomies( array(
+            '_builtin'  => false,
+            'public'    => true
+        ));
+        
+        if($taxonomies) {
+                    $articulos_edicion = get_posts(array(
+                        'post_type' => array('artistas', 'obras', 'arq_imaginarias', 'cronicas_territorio', 'entrevistas', 'visual', 'glosario', 'critica_cultural'),
+                        'post_status' => 'publish',
+                        'numberposts' => -1,
+                    ));
+
+                    if($articulos_edicion) {
+                        foreach($articulos_edicion as $articulo) {
+                            
+                            foreach($taxonomies as $taxonomy) {
+
+                            $terms = get_the_terms( $articulo->ID, $taxonomy );
+                            $terms_width_edges = array();
+
+                            foreach($terms as $term) {
+                                $globaltaxtree[$taxonomy]['elements'][] = array(
+                                    'group' => 'edges',
+                                    'data' => array(
+                                        'id' => 'edge-article-' . $term->term_id . '-' . $articulo->ID,
+                                        'source' => $term->term_id,
+                                        'target' => 'articulo-' . $articulo->ID 
+                                    )
+                                );
+                                $terms_width_edges[] = $term->term_id;
+                            }
+
+                            $thumb = get_post_thumbnail_id( $articulo->ID );
+                            $thumbsrc = wp_get_attachment_image_src( $thumb, 'thumbnail' );
+                            
+
+                            $globaltaxtree[$taxonomy]['elements'][] = array(
+                                'group' => 'nodes',
+                                'data' => array(
+                                    'postid' => $articulo->ID,
+                                    'id' => 'articulo-' . $articulo->ID,
+                                    'name' => $articulo->post_title,
+                                    'numero' => get_post_meta($articulo->ID, '_aau_edicion', true),
+                                    'link'  => get_permalink($articulo->ID),
+                                    'slug'  => $articulo->post_name,
+                                    'type'  => 'articulo',
+                                    'img'   => $thumbsrc
+                                )
+                            );
+                            }
+                        }
+                    }
+                foreach($taxonomies as $taxonomy) {
+                    $taxobj = get_taxonomy( $taxonomy );
+                    $terms = get_terms( array('taxonomy' => $taxonomy, 'hide_empty' => true ));
+                        $globaltaxtree[$taxonomy]['tax_label'] = $taxobj->label;
+                        $globaltaxtree[$taxonomy]['elements'][] = array(
+                                                                        'group' => 'nodes',
+                                                                        'data'  => array(
+                                                                                    'name' => $edicion->post_title,
+                                                                                    'id'   => 'edicion-' . $edicion->post_name,
+                                                                                    'type' => 'edicion'
+                                                                                ),
+                                                                        'position' => array('x' => 10, 'y' => 10)
+                                                                        );
+                    foreach($terms as $term) {
+                        $termarts = array();
+                        
+                            $globaltaxtree[$taxonomy]['elements'][] = array(
+                                                                            'group' => 'nodes',
+                                                                            'data' => array(
+                                                                                    'name' => $term->name,
+                                                                                    'slug' => $term->slug,
+                                                                                    'id'   => $term->term_id,
+                                                                                    'type' => 'term'
+                                                                                    )        
+                                                                            );
+                            }
+                    
+                }
+        }
+
+        return $globaltaxtree;
+
     }
 
     public  static function taxtreetransient() {
@@ -151,6 +243,27 @@ class App extends Controller
             }
 
                 set_transient( 'taxtree', $taxtree, $transient_expires );
+            
+        }
+
+       return $taxtree;
+    }
+
+    public  static function globaltaxtreetransient() {
+        // Get any existing copy of our transient data
+        if ( false === ($taxtree = get_transient( 'globaltaxtree' ) ) ) {
+            // It wasn't there, so regenerate the data and save the transient
+            $taxtree = App::globaltaxtree();
+
+            if('WP_ENV' == 'development') 
+            {
+                $transient_expires = 1;
+            }
+            else {
+                $transient_expires = 12 * HOUR_IN_SECONDS;
+            }
+
+                set_transient( 'globaltaxtree', $taxtree, $transient_expires );
             
         }
 

@@ -29,7 +29,7 @@
       <h1 class="vistitle">Mapa</h1>
   </div>
   <div class="viswrap">
-      <div id="aura_visualizacion" data-url="@php(bloginfo('url'))" data-edicion="@php(_e($post->post_name))"></div>
+      <div id="aura_visualizacion" data-url="@php(bloginfo('url'))" data-isglobal="false" data-edicion="@php(_e($post->post_name))"></div>
   </div>
 </article>
 

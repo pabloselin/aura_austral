@@ -74,6 +74,10 @@ add_action('rest_api_init', function () {
                 'methods'  => 'GET',
                 'callback' => 'App::taxtreetransient'
       ));
+   register_rest_route( 'auraaustral/v1', 'globaltaxtree',array(
+                'methods'  => 'GET',
+                'callback' => 'App::globaltaxtreetransient'
+      ));
 });
 
 
