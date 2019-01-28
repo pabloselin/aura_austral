@@ -4,19 +4,19 @@ export default {
 	},
 	finalize() {
 		let excerpt = $('.entry-content.excerpt');
-		let text = $('.btn.continue').text();
-		let fullcontent = $('.entry-content.excerpt .fullcontent');
+		let text = $('.btn.show-intro').text();
+		let fullcontent = $('.editorial-numero .content-main');
 
 		fullcontent.hide();
 		
-		$('.btn.continue').on('click', function() {
+		$('.btn.show-intro').on('click', function() {
 			if($(this).hasClass('toggled')) {
 				excerpt.removeClass('active');
 				$(this).removeClass('toggled').text(text);
-				fullcontent.hide();
+				fullcontent.slideUp();
 			} else {
 				excerpt.addClass('active');
-				fullcontent.show();
+				fullcontent.slideDown();
 				$(this).addClass('toggled').text('Cerrar');
 			}
 		});
