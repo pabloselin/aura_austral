@@ -58,6 +58,7 @@ class SingleEdiciones extends Controller
 					'id'	=> $contenido->ID,
 					'title' => $contenido->post_title,
 					'image_homeitem' => get_the_post_thumbnail_url( $contenido->ID, 'medium' ),
+					'image' => get_the_post_thumbnail_url( $contenido->ID, 'medium' ),
 					'link'  => get_permalink( $contenido->ID ),
 					'type'	=> get_post_type_name( $contenido->ID ),
 					'author'=> get_the_author_meta( 'display_name',  $contenido->post_author),
