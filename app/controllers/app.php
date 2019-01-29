@@ -156,6 +156,8 @@ class App extends Controller
 
                     if($articulos_edicion) {
                         foreach($articulos_edicion as $articulo) {
+
+                            $numero = get_post_meta($articulo->ID, '_aau_edicion', true);
                             
                             foreach($taxonomies as $taxonomy) {
 
@@ -168,7 +170,8 @@ class App extends Controller
                                     'data' => array(
                                         'id' => 'edge-article-' . $term->term_id . '-' . $articulo->ID,
                                         'source' => $term->term_id,
-                                        'target' => 'articulo-' . $articulo->ID 
+                                        'target' => 'articulo-' . $articulo->ID,
+                                        'numero' => $numero
                                     )
                                 );
                                 $terms_width_edges[] = $term->term_id;
@@ -184,7 +187,8 @@ class App extends Controller
                                     'postid' => $articulo->ID,
                                     'id' => 'articulo-' . $articulo->ID,
                                     'name' => $articulo->post_title,
-                                    'numero' => get_post_meta($articulo->ID, '_aau_edicion', true),
+                                    'numero' => get_the_title($numero),
+                                    'numeroID' => $numero,
                                     'link'  => get_permalink($articulo->ID),
                                     'slug'  => $articulo->post_name,
                                     'type'  => 'articulo',
