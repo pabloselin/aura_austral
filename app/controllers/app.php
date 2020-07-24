@@ -73,7 +73,7 @@ class App extends Controller
 
                             $terms = get_the_terms( $articulo->ID, $taxonomy );
                             $terms_width_edges = array();
-
+                            if($terms):
                             foreach($terms as $term) {
                                 $taxtree[$edicion->post_name][$taxonomy]['elements'][] = array(
                                     'group' => 'edges',
@@ -102,6 +102,8 @@ class App extends Controller
                                     'img'   => $thumbsrc
                                 )
                             );
+
+                            endif;//if terms
                             }
                         }
                     }
