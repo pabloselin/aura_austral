@@ -69,16 +69,7 @@ add_filter('comments_template', function ($comments_template) {
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
 
-add_action('rest_api_init', function () {
-  register_rest_route( 'auraaustral/v1', 'taxtree',array(
-                'methods'  => 'GET',
-                'callback' => 'App::taxtreetransient'
-      ));
-   register_rest_route( 'auraaustral/v1', 'globaltaxtree',array(
-                'methods'  => 'GET',
-                'callback' => 'App::globaltaxtreetransient'
-      ));
-});
+
 
 
 add_action('init', function() {
