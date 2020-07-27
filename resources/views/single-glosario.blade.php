@@ -4,7 +4,7 @@
   @while(have_posts()) @php(the_post())
     <div class="entry-content">
     	<div class="page-header">
-    		<h1 class="entry-title"> @php(get_the_title()) </h1>
+    		<h1 class="entry-title"> @php(the_title()) </h1>
     	</div>
 
     	 @include('partials.content-page')
