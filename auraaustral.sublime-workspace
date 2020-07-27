@@ -4,583 +4,393 @@
 		"selected_items":
 		[
 			[
-				"get_the_post_th",
-				"get_the_post_thumbnail_url"
+				"jepack",
+				"jetpack_photon_url"
 			],
 			[
-				"array_p",
-				"array_pop"
+				"wp",
+				"wpthumbnail"
 			],
 			[
-				"Hot",
-				"HotspotWrapper"
+				"tipomate",
+				"tipo_material"
 			],
 			[
-				"a",
-				"activeMenu"
+				"attachment",
+				"attachment_ID"
 			],
 			[
-				"hots",
-				"hotspotType"
+				"bit_conve",
+				"bit_convert_mediatype_to_accepted_value"
 			],
 			[
 				"cur",
-				"curHotspots"
+				"curtype"
 			],
 			[
-				"acti",
-				"activeKey"
+				"wp_get_atta",
+				"wp_get_attachment_image_src"
 			],
 			[
-				"firs",
-				"firstRun"
+				"isotop",
+				"isotope.pkgd.min.js"
 			],
 			[
-				"toggle",
-				"toggleHelpWindow"
+				"dragscro",
+				"dragscroll.js"
+			],
+			[
+				"get",
+				"get_template_directory_uri"
+			],
+			[
+				"get_mime",
+				"get_post_mime_type"
+			],
+			[
+				"WP_DEBU",
+				"WP_DEBUG_DISPLAY\tWP Constant"
+			],
+			[
+				"vie",
+				"viewportOffset"
+			],
+			[
+				"positio",
+				"positionButtonMateriales"
+			],
+			[
+				"page-templ",
+				"page-template-timeline-teatro.php"
+			],
+			[
+				"page-templat",
+				"page-template-teatro.php"
+			],
+			[
+				"modal-media",
+				"modal-media-text-lista-materiales"
+			],
+			[
+				"modal",
+				"modal-media-text-lista-materiales"
 			],
 			[
 				"act",
-				"activeKey"
+				"activeMateriales"
 			],
 			[
-				"text",
-				"renderTextWindow"
+				"material",
+				"materiales-left"
 			],
 			[
-				"switc",
-				"switchScene"
+				"ease-",
+				"ease-out"
 			],
 			[
-				"scene",
-				"sceneTextContent"
+				"row",
+				"row"
 			],
 			[
-				"find",
-				"findScene"
+				"select",
+				"selectScene"
 			],
 			[
-				"Po",
-				"PointText"
+				"playText",
+				"playtextRow"
 			],
 			[
-				"hotspot",
-				"hotspotCircle"
+				"playtex",
+				"playtextRow"
 			],
 			[
-				"hotspotD",
-				"hotspotData"
+				"playtext",
+				"playtext-row"
 			],
 			[
-				"Hostpo",
-				"HotspotType"
+				"get_template_dire",
+				"get_template_directory_uri"
 			],
 			[
-				"device",
-				"deviceControl"
+				"overfl",
+				"overflow-y\tproperty"
 			],
 			[
-				"deviceO",
-				"deviceOrientationControlMethod"
+				"get_template_",
+				"get_template_directory_uri"
 			],
 			[
-				"fontaw",
-				"fontawesome-free-solid"
+				"start_date",
+				"start_date_field"
 			],
 			[
-				"Deci",
-				"DeviceOrientationControlMethod"
+				"sanitize",
+				"sanitize_option\tWP Function"
 			],
 			[
-				"Device",
-				"DeviceOrientationControlMethod"
+				"rotat",
+				"rotate3d()\ttransform"
 			],
 			[
-				"Marzip",
-				"MarzipanoView"
+				"data",
+				"dataattrs"
 			],
 			[
-				"buil",
-				"buildImageTitle"
+				"hidden-xs",
+				"hidden-xs-up \tBootstrap 4 Class"
 			],
 			[
-				"is-accordion",
-				"is-accordion-submenu-parent"
+				"querySele",
+				"querySelectorAll"
+			],
+			[
+				"timel",
+				"timeline_events"
+			],
+			[
+				"page_templa",
+				"is_page_template\tWP Function"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_script\tWP Function"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"wp_audio_sho",
+				"wp_audio_shortcode_override\tWP Filter Name"
+			],
+			[
+				"media-",
+				"media-item-image"
+			],
+			[
+				"WP_DEBUG",
+				"WP_DEBUG_LOG\tWP Constant"
+			],
+			[
+				"modal-media-text",
+				"modal-media-text-materiales"
+			],
+			[
+				"mediait",
+				"media-item-wrapper"
+			],
+			[
+				"mediaItem",
+				"media-item-wrapper"
+			],
+			[
+				"add_rew",
+				"add_rewrite_tag\tWP Function"
+			],
+			[
+				"get_term",
+				"get_term_link\tWP Function"
+			],
+			[
+				"wp_enqueu",
+				"wp_enqueue_style\tWP Function"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"wp_get_attachment_image",
+				"wp_get_attachment_image_src\tWP Function"
+			],
+			[
+				"get_style",
+				"get_stylesheet_directory\tWP Function"
+			],
+			[
+				"_bit_descripcion",
+				"_bit_descripcion_sintetica"
+			],
+			[
+				"wp_get_attachment_imae",
+				"wp_get_attachment_image_src\tWP Function"
+			],
+			[
+				"wp_get_attachme",
+				"wp_get_attachment_url\tWP Function"
+			],
+			[
+				"update_postm",
+				"update_post_meta\tWP Function"
+			],
+			[
+				"get_taxonomies",
+				"get_taxonomies\tWP Function"
+			],
+			[
+				"get_attached",
+				"get_attached_media\tWP Function"
+			],
+			[
+				"prim",
+				"primera_obra"
+			],
+			[
+				"plugin_dir",
+				"plugin_dir_url\tWP Function"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"wp_get_att",
+				"wp_get_attachment_url\tWP Function"
+			],
+			[
+				"scae",
+				"scale3d()\ttransform"
+			],
+			[
+				"saniti",
+				"sanitize_type"
+			],
+			[
+				"tab",
+				"tabFunction"
+			],
+			[
+				"materiale",
+				"materialesTabs"
+			],
+			[
+				"wp_get_attach",
+				"wp_get_attachment_url\tWP Function"
+			],
+			[
+				"wp_get_at",
+				"wp_get_attachment_image\tWP Function"
+			],
+			[
+				"wp_upload",
+				"wp_upload_dir\tWP Function"
+			],
+			[
+				"get_template_direc",
+				"get_template_directory_uri\tWP Function"
+			],
+			[
+				"timeli",
+				"timeline-tab"
+			],
+			[
+				"fa-chevro",
+				"fa-chevron-right"
+			],
+			[
+				"fa-chevr",
+				"fa-chevron-right"
+			],
+			[
+				"overf",
+				"overflow-y\tproperty"
+			],
+			[
+				"uploads",
+				"uploads_folder"
+			],
+			[
+				"append",
+				"append-zone-filter"
+			],
+			[
+				"login_ur",
+				"wp_login_url\tWP Function"
+			],
+			[
+				"justify-content",
+				"justify-content-end \tBootstrap 4 Class"
+			],
+			[
+				"is_ob",
+				"is_object_in_taxonomy\tWP Function"
 			],
 			[
 				"is",
-				"is-accordion-submenu-parent"
+				"is_array"
+			],
+			[
+				"get_taxonom",
+				"get_taxonomy_labels\tWP Function"
+			],
+			[
+				"is_sing",
+				"is_singular\tWP Function"
+			],
+			[
+				"queyr",
+				"queryUrl"
+			],
+			[
+				"query",
+				"query_vars\tWP Filter Name"
+			],
+			[
+				"struct",
+				"structured_search"
+			],
+			[
+				"actor",
+				"actor_name"
+			],
+			[
+				"fiels",
+				"fields_data"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "resources/views/partials/comments.blade.php",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 59,
+				"buffer_size": 4154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phploy.ini",
+			"settings":
+			{
+				"buffer_size": 581,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/plugins/aura-austral-custom-fields/aura-austral-custom-fields.php",
-			"settings":
-			{
-				"buffer_size": 1229,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/footer.blade.php",
-			"settings":
-			{
-				"buffer_size": 479,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/archive.blade.php",
-			"settings":
-			{
-				"buffer_size": 640,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/archive-glosario.blade.php",
-			"settings":
-			{
-				"buffer_size": 425,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-archiveitem-glosario.blade.php",
-			"settings":
-			{
-				"buffer_size": 170,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_archiveitem-glosario.scss",
-			"settings":
-			{
-				"buffer_size": 306,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/common/_global.scss",
-			"settings":
-			{
-				"buffer_size": 689,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_footnotes.scss",
-			"settings":
-			{
-				"buffer_size": 338,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/nav-primary.blade.php",
-			"settings":
-			{
-				"buffer_size": 1523,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_nav.scss",
-			"settings":
-			{
-				"buffer_size": 2402,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/setup.php",
-			"settings":
-			{
-				"buffer_size": 4962,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-single-visual.blade.php",
-			"settings":
-			{
-				"buffer_size": 1283,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/single.php",
-			"settings":
-			{
-				"buffer_size": 887,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/single.blade.php",
-			"settings":
-			{
-				"buffer_size": 165,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-single.blade.php",
-			"settings":
-			{
-				"buffer_size": 618,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-single-post.blade.php",
-			"settings":
-			{
-				"buffer_size": 462,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/front-page.php",
-			"settings":
-			{
-				"buffer_size": 966,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_wp-classes.scss",
-			"settings":
-			{
-				"buffer_size": 838,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/archive-ediciones.php",
-			"settings":
-			{
-				"buffer_size": 783,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_archive-ediciones.scss",
-			"settings":
-			{
-				"buffer_size": 341,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Searching 30 files for \"publish\"\n\n0 matches\n\nSearching 30 files for \"draft\"\n\n/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/styles/components/_edicioncard.scss:\n   33  }\n   34  \n   35: .edicioncard.draft {\n   36    opacity: 0.2;\n   37  \n\n1 match in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 309,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_edicioncard.scss",
-			"settings":
-			{
-				"buffer_size": 823,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/archive-ediciones.blade.php",
-			"settings":
-			{
-				"buffer_size": 317,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-edicioncard.blade.php",
-			"settings":
-			{
-				"buffer_size": 223,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/single-ediciones.php",
-			"settings":
-			{
-				"buffer_size": 899,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-single-ediciones.blade.php",
-			"settings":
-			{
-				"buffer_size": 844,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_single-ediciones.scss",
-			"settings":
-			{
-				"buffer_size": 1496,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/scripts/routes/single-ediciones.js",
-			"settings":
-			{
-				"buffer_size": 539,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "export default {"
-			}
-		},
-		{
-			"file": "app/helpers.php",
-			"settings":
-			{
-				"buffer_size": 5470,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_single-visual.scss",
-			"settings":
-			{
-				"buffer_size": 2569,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cosas.todo",
-			"settings":
-			{
-				"buffer_size": 1344,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-homeitem.blade.php",
-			"settings":
-			{
-				"buffer_size": 306,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-archiveitem.blade.php",
-			"settings":
-			{
-				"buffer_size": 380,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-carditem.blade.php",
-			"settings":
-			{
-				"buffer_size": 378,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/home.blade.php",
+			"file": "/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/plugins/aura_visualizacion/phploy.ini",
 			"settings":
 			{
 				"buffer_size": 608,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-archiveitem-visual.blade.php",
-			"settings":
-			{
-				"buffer_size": 364,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/assets/styles/components/_homeitem.scss",
+			"file": "resources/views/single-glosario.blade.php",
 			"settings":
 			{
-				"buffer_size": 1256,
+				"buffer_size": 260,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/partials/entry-meta-plain.blade.php",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 92,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_carditem.scss",
-			"settings":
-			{
-				"buffer_size": 531,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 531,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_archive.scss",
-			"settings":
-			{
-				"buffer_size": 280,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_page.scss",
-			"settings":
-			{
-				"buffer_size": 908,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/components/_editem.scss",
-			"settings":
-			{
-				"buffer_size": 492,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/scripts/main.js",
-			"settings":
-			{
-				"buffer_size": 1237,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/scripts/routes/single-visual.js",
-			"settings":
-			{
-				"buffer_size": 985,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/scripts/routes/common.js",
-			"settings":
-			{
-				"buffer_size": 511,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_single.scss",
-			"settings":
-			{
-				"buffer_size": 1751,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/layouts/_single-post.scss",
-			"settings":
-			{
-				"buffer_size": 323,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/assets/styles/main.scss",
-			"settings":
-			{
-				"buffer_size": 1124,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-editem.blade.php",
-			"settings":
-			{
-				"buffer_size": 307,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/partials/content-editem-nav.blade.php",
-			"settings":
-			{
-				"buffer_size": 307,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/app.php",
-			"settings":
-			{
-				"buffer_size": 1584,
-				"encoding": "UTF-8",
+				"buffer_size": 1236,
 				"line_ending": "Unix"
 			}
 		}
@@ -597,103 +407,187 @@
 		"selected_items":
 		[
 			[
-				"comm",
-				"Toggle Comment"
+				"synbla",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"them",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"term",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus",
+				"Preferences: Terminus Settings"
 			],
 			[
 				"rein",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"ba",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"bab",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"babe",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"synblad",
-				"Set Syntax: Laravel Blade"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
-				"toggle",
+				"comm",
 				"Toggle Comment"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"tdv",
+				"Terminus: Open Default Shell in Tab (View)"
 			],
 			[
 				"ww",
 				"Word Wrap: Toggle"
 			],
 			[
-				"color",
-				"UI: Select Color Scheme"
+				"xdebugre",
+				"Xdebug: Restore Layout"
 			],
 			[
-				"package ins",
+				"xdebst",
+				"Xdebug: Stop Debugging"
+			],
+			[
+				"xdebugst",
+				"Xdebug: Start Debugging (Launch Browser)"
+			],
+			[
+				"xdeb",
+				"Preferences: Xdebug Settings – User"
+			],
+			[
+				"xdebug",
+				"Preferences: Xdebug Settings – User"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"html",
+				"Snippet: m-template-html"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"rien",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrp",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"ins",
 				"Package Control: Install Package"
 			],
 			[
-				"pretti",
-				"Preferences: JsPrettier Settings - User"
+				"toggl",
+				"Toggle Comment"
 			],
 			[
-				"prefere",
-				"Preferences: Settings"
-			],
-			[
-				"prett",
-				"JsPrettier: Format Code"
-			],
-			[
-				"js",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"prettie",
-				"Preferences: JsPrettier Settings - User"
-			],
-			[
-				"save",
-				"File: Save All"
+				"togg",
+				"Toggle Comment"
 			],
 			[
 				"prefe",
 				"Preferences: Settings"
 			],
 			[
-				"PRETT",
-				"JsPrettier: Format Code"
+				"les",
+				"Set Syntax: Less"
 			],
 			[
-				"babel",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"tood",
-				"Set Syntax: ToDone"
-			],
-			[
-				"packin",
+				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"synsass",
+				"Set Syntax: SCSS"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"intall pag",
+				"Package Control: Install Package"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"inspac",
+				"Install Package Control"
 			]
 		],
 		"width": 0.0
 	},
 	"console":
 	{
-		"height": 573.0,
+		"height": 150.0,
 		"history":
 		[
 		]
@@ -709,155 +603,154 @@
 	},
 	"expanded_folders":
 	[
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/app",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/app/controllers",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/scripts",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/scripts/routes",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/views",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/views/layouts",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/views/partials"
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral/app",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral/app/controllers",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral/resources",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral/resources/views",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/themes/aura_austral/resources/views/layouts",
+		"/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/plugins/aura_visualizacion"
 	],
 	"file_history":
 	[
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/app/controllers/front-page.php",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/app/controllers/archive-glosario.php",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/styles/common/_variables.scss",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/scripts/main.js",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/resources/assets/styles/components/_nav.scss",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/app/controllers/app.php",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/auraaustral.sublime-project",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/aura_austral.todo",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/package.json",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/themes/auraaustral/.gitignore",
-		"/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/plugins/aura-austral-custom-fields.php",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Video.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/VideoHotspot.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/notas.todo",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/notas.md",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/base.css",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/data/dummy.json",
-		"/home/donhilo/Documentos/code/statics/pabloselin.github.io/datos.html",
-		"/home/donhilo/Documentos/code/statics/pabloselin.github.io/_data/videogames.yml",
-		"/tmp/fz3temp-1/.htaccess",
-		"/tmp/fz3temp-1/repair.php",
-		"/tmp/fz3temp-1/my-sites.php",
-		"/tmp/fz3temp-1/index 3.php",
-		"/tmp/fz3temp-1/.bt",
-		"/tmp/fz3temp-1/feed.php",
-		"/tmp/fz3temp-1/index 2.php",
-		"/tmp/fz3temp-1/index.php",
-		"/home/donhilo/.gitignore",
-		"/home/donhilo/Documentos/code/statics/pabloselin.github.io/index.html",
-		"/home/donhilo/Documentos/code/conf/backup.sh",
-		"/home/donhilo/Programas/startkrita.sh",
-		"/etc/apt/sources.list",
-		"/etc/hosts",
-		"/home/donhilo/Escritorio/cron_output.txt",
-		"/home/donhilo/Escritorio/reserva_nachovegas",
-		"/tmp/fz3temp-1/phprc",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/gulpfile.js",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/core/sass/partials/_oldcustom.scss",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/page-contact.php",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/core/sass/main.scss",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/core/sass/partials/_general.scss",
-		"/tmp/fz3temp-1/phprc 2",
-		"/tmp/fz3temp-1/infophp.php",
-		"/home/donhilo/Documentos/code/containers/csd/csd_web/public/wp-content/themes/universe_theme/old/oldcustom.css",
-		"/tmp/fz3temp-1/wp-config.php",
-		"/tmp/fz3temp-1/.rev",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/scrollParagraph.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/ModalContainer.js",
-		"/home/donhilo/Documentos/code/containers/pueblonuevo/public/wp-content/themes/pueblonuevo-ajax/dploy.yaml",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/textos/ayuda.md",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Point.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Head.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/textos/intro_fulltext.md",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/textos/intro.md",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/textos/fiestas.md",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/MarzipanoView.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/MarzipanoUI.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/PointsList.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/ShowMenu.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/TextWindow.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Vista.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/MarzipanoBrand.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/.gitignore",
-		"/usr/share/applications/sublime_text.desktop",
-		"/home/donhilo/Escritorio/Postulaciones.todo",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/TestWindow.js",
-		"/home/donhilo/Escritorio/trjmama.txt",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/transitions/Fade.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/transitions/fade.js",
-		"/home/donhilo/.bashrc",
-		"/home/donhilo/Documentos/code/containers/c80/public/wp-content/themes/c80-template/dploy.yaml",
-		"/home/donhilo/Documentos/code/containers/ufutura/docker-compose.yml",
-		"/usr/share/applications/org.kde.dolphin.desktop",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Header.js",
-		"/home/donhilo/.config/sublime-text-3/Packages/User/JsPrettier.sublime-settings",
-		"/home/donhilo/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
-		"/home/donhilo/Escritorio/testingtesting.txt",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/pages/vista.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Hotspot.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Gallery.js",
-		"/home/donhilo/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/Modal.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/components/CloseButton.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/ref/control_implementation.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/pages/index.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/pages/about.js",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/static/devicecontrol.js",
-		"/home/donhilo/Documentos/code/boxes/cw/public/wp-content/themes/cw/dploy.yaml",
-		"/home/donhilo/Documentos/code/js/trolley_nextjs/pages/page_vista.js",
-		"/home/donhilo/Escritorio/ps20.txt",
-		"/tmp/fz3temp-1/.htpasswd",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/library/entry-meta.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/single.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/global/_wp-overrides.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-config.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/modules/_navigation.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/archive-cms_agenda.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/template-parts/item-evento-archive.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/library/custom-field-utils.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/template-parts/agenda-metadata.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/header.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/functions.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/docker-compose.yml",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/phpdocker/php-fpm/php-ini-overrides.ini",
-		"/home/donhilo/Documentos/code/containers/cm/cms/cms_web/public/wp-content/themes/cms-fp-old/assets/scss/modules/_navigation.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cms/cms_web/public/wp-content/themes/cms-fp-old/header.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/library/navigation.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/template-parts/widgets/widget-footer-info.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/extras/class-footer-info-widget.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/footer.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/modules/_content.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/tasks.todo",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/modules/_footer.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/modules/_sidebar.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/templates/_front.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/template-parts/mobile-top-bar.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/dploy.yaml",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/templates/_archive.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/page-templates/front.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/_settings.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/src/assets/scss/components/_metadata.scss",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/template-parts/item-default-archive.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/search.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_web/public/wp-content/themes/cma-fp-child/library/custom-content.php",
-		"/home/donhilo/Documentos/code/containers/cm/cma/cma_admision/public/wp-content/themes/cma-admision/css/src/main.scss"
+		"/tmp/fz3temp-2/wp-config.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/cnid/app/public/wp-content/themes/cnid-sage/ctcidoc.sublime-project",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/debug.log",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/admin-interface.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/bit_admin.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/inc/custom-fields.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/materiales-obra.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/bitacora-functions.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-config.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/js/bit_admin_extend_upload.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/phploy.ini",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/bit_db_functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/timeline.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/home.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/inc/template-functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/gulpfile.babel.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/elements/_playtext.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/bitacora-texto-dramatico.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/bitacora.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/style.css",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/style.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/timeline-obra.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/timeline.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/header.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/bit_extensions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/dist/bitacoraBundle.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/nav-404.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/nav-page-teatro.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/404.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/page-template-creditos.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/page.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/texto-obra.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/taxonomy-obra.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/dist/locale/es.json",
+		"/home/pabloselin/.config/sublime-text-3/Packages/User/Xdebug.sublime-settings",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/package.json",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/site/_home.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/materiales-teatro.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/navigation/_menus.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/mixins/_bitacora.scss",
+		"/home/pabloselin/.config/sublime-text-3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/prompt.sublime-project",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/conf/php/php.ini.hbs",
+		"/tmp/fz3temp-2/wp-config 2.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/bit_wp_functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/elements/_materiales.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/loading.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/site/_taxonomy-obra.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/site/_creditos.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/phploy.ini",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/site/_timeline.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/landing-overlay.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/ficha-obra.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/extras/wpvideo.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/page-template-teatro.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/less/TL.Timeline.less",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/bit_utils.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/page-template-materiales-teatro.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/page-template-timeline-teatro.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/inc/ajax-functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/index.php",
+		"/home/pabloselin/Documents/GameDev/quiensoy/src/ContadorPiedras.gd",
+		"/home/pabloselin/Documents/GameDev/quiensoy/src/Apacheta.gd",
+		"/home/pabloselin/Documents/GameDev/quiensoy/src/PiedrasPlayer.gd",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/package-lock.json",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/scrollama.min.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/in-view.min.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/extras/prompt-scrollbar.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/syncscroll.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/dragscroll.js",
+		"/home/pabloselin/Documents/WebDev/projects/pluralismotv/html/index.html",
+		"/media/pabloselin/ELA/backup/Documents/code/php/pueblonuevo/public/wp-content/plugins/pueblonuevoplayer/js/src/initplayer.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/variables-site/_typography.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/locale/es.json",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/site/_site.scss",
+		"/home/pabloselin/Documents/WebDev/projects/PluralismoTV_MM_RGB /html/index.html",
+		"/home/pabloselin/Documents/GameDev/cryojelly_2020/code/cryojelly_test_01/scenes/Main.gd",
+		"/home/pabloselin/Documents/GameDev/cryojelly_2020/code/cryojelly_test_01/scenes/Stage.gd",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/site-footer.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/footer.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/brand-header.php",
+		"/home/pabloselin/Documents/WebDev/projects/luciaegana/reunion",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/inc/custom-content.php",
+		"/home/pabloselin/Desktop/datos_cuarentena.txt",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/variables-site/_colors.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/mixins/_media-queries.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/extras/custom-bootstrap.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/variables-site/_custom-bootstrap-variables.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/variables-site/_reboot.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/jquery.visible.min.js",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/index.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/inc/custom-taxonomies.php",
+		"/tmp/fz3temp-2/.htaccess",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/js/audio_vis.js",
+		"/home/pabloselin/Documents/GameDev/cursogodot/CubeDude/Scenes/CubeDude.gd",
+		"/home/pabloselin/Documents/GameDev/cursogodot/heistmeisters/Heistmeisters/json/TutorialMessages.json",
+		"/home/pabloselin/Documents/GameDev/cryojelly/notes.todo",
+		"/tmp/fz3temp-2/debug.log",
+		"/tmp/fz3temp-2/front-page.php",
+		"/home/pabloselin/Documents/WebDev/projects/bitacorateatrouc/reunion150420.txt",
+		"/home/pabloselin/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/templates/itrend-filters-frontend.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/itrend-template-functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/templates/itrend-header.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/elements/_teatro.scss",
+		"/tmp/fz3temp-2/functions.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/template-parts/obras.php",
+		"/home/pabloselin/Documents/WebDev/host_transfer/databases.txt",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/node_modules/bootstrap/scss/_grid.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/node_modules/bootstrap/scss/mixins/_grid.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/node_modules/bootstrap/scss/_variables.scss",
+		"/home/pabloselin/Documents/WebDev/local_sites/guzmanantonio/app/public/wp-config.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bitacora_texto/notas_reu_22.md",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/sass/elements/_elements.scss",
+		"/tmp/fz3temp-2/home.php",
+		"/tmp/fz3temp-2/config 4.php",
+		"/tmp/fz3temp-2/config 3.php",
+		"/tmp/fz3temp-2/header.php",
+		"/tmp/fz3temp-2/config 2.php",
+		"/tmp/fz3temp-2/config.php",
+		"/tmp/fz3temp-2/error_log",
+		"/tmp/fz3temp-2/file.php",
+		"/tmp/fz3temp-2/javascript.php",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/dploy.yaml",
+		"/home/pabloselin/.config/Local/run/router/nginx/logs/error.log",
+		"/home/pabloselin/.gitignore",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/plugins/bit_extensions/dploy.yaml",
+		"/home/pabloselin/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/node_modules/bootstrap/scss/_buttons.scss"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 107.0,
+		"height": 104.0,
 		"where_history":
 		[
-			"*.scss"
 		]
 	},
 	"find_state":
@@ -865,18 +758,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"caption",
-			"right",
-			"draft",
-			"publish",
-			"48px",
-			"0",
-			"#333",
-			")}}",
-			"$edicion",
-			"ediciones",
-			"\t\t$ediciones",
-			"$ediciones"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -894,1057 +775,70 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resources/views/partials/comments.blade.php",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 59,
+						"buffer_size": 4154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								730,
+								730
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/plugins/aura-austral-custom-fields/aura-austral-custom-fields.php",
+					"file": "phploy.ini",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1229,
+						"buffer_size": 581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								581,
+								581
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/INI/INI.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "resources/views/partials/footer.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								460,
-								460
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 46,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/archive.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								604,
-								604
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/archive-glosario.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 49,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "resources/views/partials/content-archiveitem-glosario.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 170,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 47,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "resources/assets/styles/components/_archiveitem-glosario.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								306,
-								306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 50,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "resources/assets/styles/common/_global.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								584,
-								584
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 51,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "resources/assets/styles/components/_footnotes.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 45,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "resources/views/partials/nav-primary.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1000,
-								1000
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "resources/assets/styles/components/_nav.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								586,
-								586
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/setup.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4962,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1501,
-								1153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "resources/views/partials/content-single-visual.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								852,
-								852
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "app/controllers/single.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								855,
-								855
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "resources/views/single.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 26,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "resources/views/partials/content-single.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 25,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "resources/views/partials/content-single-post.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 462,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "app/controllers/front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								446,
-								446
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 37,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "resources/assets/styles/components/_wp-classes.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								376,
-								376
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 36,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "app/controllers/archive-ediciones.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								514,
-								514
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "resources/assets/styles/layouts/_archive-ediciones.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 341,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								338,
-								338
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 309,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										251,
-										256
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								45,
-								45
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 42,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "resources/assets/styles/components/_edicioncard.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 823,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								660,
-								660
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 41,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "resources/views/archive-ediciones.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								277,
-								277
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "resources/views/partials/content-edicioncard.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								223,
-								223
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "app/controllers/single-ediciones.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								791,
-								791
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "resources/views/partials/content-single-ediciones.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								669,
-								669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "resources/assets/styles/layouts/_single-ediciones.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								746,
-								746
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "resources/assets/scripts/routes/single-ediciones.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 539,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								539,
-								539
-							]
-						],
-						"settings":
-						{
-							"auto_name": "export default {",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 44,
-					"type": "text"
-				},
-				{
-					"buffer": 29,
-					"file": "app/helpers.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4348,
-								4348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2275.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 30,
-					"file": "resources/assets/styles/layouts/_single-visual.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2132,
-								2132
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 31,
-					"file": "cosas.todo",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								873,
-								873
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ToDone/ToDone.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 32,
-					"file": "resources/views/partials/content-homeitem.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								306,
-								306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 33,
-					"type": "text"
-				},
-				{
-					"buffer": 33,
-					"file": "resources/views/partials/content-archiveitem.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								380,
-								380
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 29,
-					"type": "text"
-				},
-				{
-					"buffer": 34,
-					"file": "resources/views/partials/content-carditem.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 30,
-					"type": "text"
-				},
-				{
-					"buffer": 35,
-					"file": "resources/views/home.blade.php",
+					"file": "/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/plugins/aura_visualizacion/phploy.ini",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1955,237 +849,30 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								608,
+								608
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/INI/INI.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
-					"file": "resources/views/partials/content-archiveitem-visual.blade.php",
+					"buffer": 3,
+					"file": "resources/views/single-glosario.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 364,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 31,
-					"type": "text"
-				},
-				{
-					"buffer": 37,
-					"file": "resources/assets/styles/components/_homeitem.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								601,
-								601
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 38,
-					"file": "resources/views/partials/entry-meta-plain.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 34,
-					"type": "text"
-				},
-				{
-					"buffer": 39,
-					"file": "resources/assets/styles/components/_carditem.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								478,
-								478
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 40,
-					"file": "resources/assets/styles/layouts/_footer.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 41,
-					"file": "resources/assets/styles/layouts/_archive.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								280,
-								280
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 42,
-					"file": "resources/assets/styles/layouts/_page.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 908,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								274,
-								274
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 43,
-					"file": "resources/assets/styles/components/_editem.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 492,
+						"buffer_size": 260,
 						"regions":
 						{
 						},
@@ -2198,276 +885,43 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 43,
-					"type": "text"
-				},
-				{
-					"buffer": 44,
-					"file": "resources/assets/scripts/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 45,
-					"file": "resources/assets/scripts/routes/single-visual.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 985,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								679,
-								679
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 46,
-					"file": "resources/assets/scripts/routes/common.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 511,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								408,
-								408
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 35,
-					"type": "text"
-				},
-				{
-					"buffer": 47,
-					"file": "resources/assets/styles/layouts/_single.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1751,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								554,
-								554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 48,
-					"file": "resources/assets/styles/layouts/_single-post.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								323,
-								323
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 49,
-					"file": "resources/assets/styles/main.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								890,
-								890
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 50,
-					"file": "resources/views/partials/content-editem.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
-					"file": "resources/views/partials/content-editem-nav.blade.php",
-					"semi_transient": false,
+					"buffer": 4,
+					"file": "composer.json",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 1236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								851,
+								851
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
-					"type": "text"
-				},
-				{
-					"buffer": 52,
-					"file": "app/controllers/app.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1540,
-								1540
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 38,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -2475,11 +929,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 36.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -2508,11 +962,15 @@
 	{
 		"height": 0.0
 	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "auraaustral.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2522,516 +980,516 @@
 		"selected_items":
 		[
 			[
-				"setup",
-				"auraaustral/app/setup.php"
-			],
-			[
-				"edicion",
-				"auraaustral/resources/assets/styles/layouts/_single-ediciones.scss"
-			],
-			[
-				"ediciones",
-				"auraaustral/resources/assets/styles/layouts/_archive-ediciones.scss"
-			],
-			[
-				"page",
-				"auraaustral/resources/assets/styles/layouts/_page.scss"
-			],
-			[
-				"archive",
-				"auraaustral/resources/assets/styles/layouts/_archive.scss"
-			],
-			[
-				"foot",
-				"auraaustral/resources/assets/styles/layouts/_footer.scss"
-			],
-			[
-				"single-vis",
-				"auraaustral/resources/assets/styles/layouts/_single-visual.scss"
-			],
-			[
-				"visual",
-				"auraaustral/resources/assets/scripts/routes/single-visual.js"
-			],
-			[
-				"visu",
-				"auraaustral/resources/assets/scripts/routes/single-visual.js"
-			],
-			[
-				"main",
-				"auraaustral/resources/assets/scripts/main.js"
-			],
-			[
-				"cardite",
-				"auraaustral/resources/assets/styles/components/_carditem.scss"
-			],
-			[
-				"single-pos",
-				"auraaustral/resources/assets/styles/layouts/_single-post.scss"
-			],
-			[
-				"single-post",
-				"auraaustral/resources/views/partials/content-single-post.blade.php"
-			],
-			[
-				"todo",
-				"auraaustral/cosas.todo"
-			],
-			[
-				"single",
-				"auraaustral/resources/assets/styles/layouts/_single.scss"
-			],
-			[
-				"edicioncar",
-				"auraaustral/resources/views/partials/content-edicioncard.blade.php"
-			],
-			[
-				"archive-edic",
-				"auraaustral/resources/views/archive-ediciones.blade.php"
-			],
-			[
-				"edicio",
-				"auraaustral/app/controllers/archive-ediciones.php"
-			],
-			[
-				"single.sc",
-				"auraaustral/resources/assets/styles/layouts/_single.scss"
-			],
-			[
-				"nav",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"main.j",
-				"auraaustral/resources/assets/scripts/main.js"
-			],
-			[
-				"nac",
-				"auraaustral/resources/assets/styles/components/_nav.scss"
-			],
-			[
-				"nav-pr",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"helpe",
-				"auraaustral/app/helpers.php"
-			],
-			[
-				"nav-p",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"single-edic",
-				"auraaustral/resources/assets/styles/layouts/_single-ediciones.scss"
-			],
-			[
-				"single-edi",
-				"auraaustral/resources/assets/styles/layouts/_single-ediciones.scss"
-			],
-			[
-				"singl",
-				"auraaustral/resources/assets/styles/layouts/_single.scss"
-			],
-			[
-				"cardit",
-				"auraaustral/resources/assets/styles/components/_carditem.scss"
-			],
-			[
-				"homeit",
-				"auraaustral/resources/assets/styles/components/_homeitem.scss"
-			],
-			[
-				"single-po",
-				"auraaustral/resources/views/partials/content-single-post.blade.php"
-			],
-			[
-				"single.s",
-				"auraaustral/resources/assets/styles/layouts/_single.scss"
-			],
-			[
-				"content-singl",
-				"auraaustral/resources/views/partials/content-single.blade.php"
-			],
-			[
-				"archi",
-				"auraaustral/resources/views/archive.blade.php"
-			],
-			[
-				"carditem",
-				"auraaustral/resources/views/partials/content-carditem.blade.php"
-			],
-			[
-				"hom",
-				"auraaustral/resources/views/home.blade.php"
-			],
-			[
-				"entry",
-				"auraaustral/resources/views/partials/entry-meta-plain.blade.php"
-			],
-			[
-				"archiv",
-				"auraaustral/resources/views/archive.blade.php"
-			],
-			[
-				"comm",
-				"auraaustral/resources/assets/scripts/routes/common.js"
-			],
-			[
-				"wp",
-				"auraaustral/resources/assets/styles/components/_wp-classes.scss"
-			],
-			[
-				"front",
-				"auraaustral/app/controllers/front-page.php"
-			],
-			[
-				"help",
-				"auraaustral/app/helpers.php"
-			],
-			[
-				"app",
-				"auraaustral/app/controllers/app.php"
-			],
-			[
-				"entry-me",
-				"auraaustral/resources/views/partials/entry-meta-plain.blade.php"
-			],
-			[
-				"front-pa",
-				"auraaustral/app/controllers/front-page.php"
-			],
-			[
-				"content-hom",
-				"auraaustral/resources/views/partials/content-homeitem.blade.php"
-			],
-			[
-				"single-visu",
-				"auraaustral/resources/assets/styles/layouts/_single-visual.scss"
-			],
-			[
-				"single.",
-				"auraaustral/app/controllers/single.php"
-			],
-			[
-				"single-vi",
-				"auraaustral/resources/views/partials/content-single-visual.blade.php"
-			],
-			[
-				"edite",
-				"auraaustral/resources/views/partials/content-editem.blade.php"
-			],
-			[
-				"nav-prim",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"archive-ed",
-				"auraaustral/resources/assets/styles/layouts/_archive-ediciones.scss"
-			],
-			[
-				"editem",
-				"auraaustral/resources/assets/styles/components/_editem.scss"
-			],
-			[
-				"visua",
-				"auraaustral/resources/assets/styles/layouts/_single-visual.scss"
-			],
-			[
-				"",
-				"auraaustral/resources/assets/styles/layouts/_single-ediciones.scss"
-			],
-			[
-				"single-ed",
-				"auraaustral/resources/assets/styles/layouts/_single-ediciones.scss"
-			],
-			[
-				"content-edi",
-				"auraaustral/resources/views/partials/content-editem.blade.php"
-			],
-			[
-				"nav-",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"glosari",
-				"auraaustral/resources/assets/styles/components/_archiveitem-glosario.scss"
-			],
-			[
-				"nav-pri",
-				"auraaustral/resources/views/partials/nav-primary.blade.php"
-			],
-			[
-				"varia",
-				"auraaustral/resources/assets/styles/common/_variables.scss"
-			],
-			[
-				"vari",
-				"auraaustral/resources/assets/styles/common/_variables.scss"
-			],
-			[
-				"glob",
-				"auraaustral/resources/assets/styles/common/_global.scss"
-			],
-			[
-				"gitig",
-				"auraaustral/.gitignore"
-			],
-			[
-				"super",
-				"parts/hl__superior.php"
-			],
-			[
-				"dpl",
-				"dploy.yaml"
-			],
-			[
-				"dumm",
-				"data/dummy.json"
-			],
-			[
-				"video",
-				"components/Video.js"
-			],
-			[
-				"hot",
-				"components/Hotspot.js"
-			],
-			[
-				"mar",
-				"components/MarzipanoView.js"
-			],
-			[
-				"hlsup",
-				"parts/hl__superior.php"
-			],
-			[
-				"hl",
-				"parts/hl__edades-vacantes.php"
-			],
-			[
-				"intro",
-				"parts/hl__intro.php"
-			],
-			[
-				"valores",
-				"parts/hl__valores-descuentos.php"
-			],
-			[
-				"valor",
-				"admin/admin_valores.php"
-			],
-			[
-				"marz",
-				"components/MarzipanoView.js"
-			],
-			[
-				"vide",
-				"components/VideoHotspot.js"
-			],
-			[
-				"header",
-				"_includes/header.html"
-			],
-			[
-				"contact",
-				"page-contact.php"
-			],
-			[
-				"gulpfi",
-				"gulpfile.js"
-			],
-			[
-				"func",
-				"functions.php"
-			],
-			[
-				"g",
-				"gulpfile.js"
-			],
-			[
-				"portafol",
-				"assets/css/src/portafolio.scss"
-			],
-			[
-				"matric",
-				"core/sass/partials/matricula.scss"
-			],
-			[
-				"enque",
-				"core/includes/theme-enqueue.php"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
-			],
-			[
-				"gall",
-				"components/Gallery.js"
-			],
-			[
-				"hots",
-				"components/Hotspot.js"
-			],
-			[
-				"dummy",
-				"data/dummy.json"
-			],
-			[
-				"ho",
-				"components/Hotspot.js"
-			],
-			[
-				"base.c",
-				"static/base.css"
-			],
-			[
-				"marzipanobr",
-				"components/MarzipanoBrand.js"
-			],
-			[
-				"showme",
-				"components/ShowMenu.js"
-			],
-			[
-				"points",
-				"components/PointsList.js"
-			],
-			[
-				"base",
-				"static/base.css"
-			],
-			[
-				"scroll",
-				"components/scrollParagraph.js"
-			],
-			[
-				"ui",
-				"components/MarzipanoUI.js"
-			],
-			[
-				"point",
-				"components/Point.js"
-			],
-			[
-				"vista",
-				"components/Vista.js"
-			],
-			[
-				"modalcon",
-				"components/ModalContainer.js"
-			],
-			[
-				"packa",
+				"pack",
 				"package.json"
 			],
 			[
-				"showmn",
-				"components/ShowMenu.js"
+				"webpack",
+				"resources/assets/build/webpack.config.js"
 			],
 			[
-				"marzip",
-				"components/MarzipanoView.js"
+				"bitex",
+				"bit_extensions/bit_extensions.php"
 			],
 			[
-				"head",
-				"components/Head.js"
+				"mate",
+				"prompt/template-parts/materiales-teatro.php"
 			],
 			[
-				"sho",
-				"components/ShowMenu.js"
-			],
-			[
-				"list",
-				"components/PointsList.js"
-			],
-			[
-				"marzipanovi",
-				"components/MarzipanoView.js"
-			],
-			[
-				"marzipanoui",
-				"components/MarzipanoUI.js"
-			],
-			[
-				"menu",
-				"components/ShowMenu.js"
-			],
-			[
-				"closebu",
-				"components/CloseButton.js"
-			],
-			[
-				"Moda",
-				"components/Modal.js"
-			],
-			[
-				"marui",
-				"components/MarzipanoUI.js"
-			],
-			[
-				"agend",
-				"template-parts/agenda-metadata.php"
+				"page",
+				"prompt/page-template-teatro.php"
 			],
 			[
 				"fun",
-				"functions.php"
+				"prompt/functions.php"
 			],
 			[
-				"field",
-				"library/custom-field-utils.php"
+				"menu",
+				"prompt/sass/navigation/_menus.scss"
 			],
 			[
-				"agenda",
-				"template-parts/agenda-metadata.php"
+				"head",
+				"prompt/header.php"
 			],
 			[
-				"item-eve",
-				"template-parts/item-evento-archive.php"
+				"playt",
+				"prompt/sass/elements/_playtext.scss"
 			],
 			[
-				"navi",
-				"src/assets/scss/modules/_navigation.scss"
+				"text",
+				"prompt/js/bitacora-texto-dramatico.js"
 			],
 			[
-				"navig",
-				"src/assets/scss/modules/_navigation.scss"
+				"materiales-obr",
+				"prompt/template-parts/materiales-obra.php"
 			],
 			[
-				"wp-ov",
-				"src/assets/scss/global/_wp-overrides.scss"
+				"bitacora-tex",
+				"prompt/js/bitacora-texto-dramatico.js"
 			],
 			[
-				"conten",
-				"src/assets/scss/modules/_content.scss"
+				"func",
+				"prompt/functions.php"
 			],
 			[
-				"content",
-				"src/assets/scss/modules/_content.scss"
+				"texto",
+				"prompt/template-parts/texto-obra.php"
 			],
 			[
-				"sidebar",
-				"src/assets/scss/modules/_sidebar.scss"
+				"bitac",
+				"prompt/js/bitacora.js"
 			],
 			[
-				"foote",
-				"src/assets/scss/modules/_footer.scss"
+				"custof",
+				"prompt/inc/custom-fields.php"
 			],
 			[
-				"widget-foot",
-				"template-parts/widgets/widget-footer-info.php"
+				"bitacor",
+				"prompt/js/bitacora-functions.js"
 			],
 			[
-				"footer-in",
-				"extras/class-footer-info-widget.php"
+				"deb",
+				"~/Documents/WebDev/local_sites/bitacora/app/public/wp-content/debug.log"
 			],
 			[
-				"footer.p",
-				"footer.php"
+				"bitacorafu",
+				"prompt/js/bitacora-functions.js"
 			],
 			[
-				"fron",
-				"src/assets/scss/templates/_front.scss"
+				"phpl",
+				"prompt/phploy.ini"
+			],
+			[
+				"wp",
+				"bit_extensions/bit_wp_functions.php"
+			],
+			[
+				"custom",
+				"prompt/inc/custom-fields.php"
+			],
+			[
+				"bitwp",
+				"bit_extensions/bit_wp_functions.php"
+			],
+			[
+				"dbf",
+				"bit_extensions/bit_db_functions.php"
+			],
+			[
+				"style",
+				"prompt/sass/style.scss"
+			],
+			[
+				"bitaco",
+				"prompt/js/bitacora.js"
+			],
+			[
+				"timeli",
+				"prompt/template-parts/timeline.php"
+			],
+			[
+				"time",
+				"prompt/template-parts/timeline-obra.php"
+			],
+			[
+				"bitacora.j",
+				"prompt/js/bitacora.js"
+			],
+			[
+				"templa",
+				"prompt/inc/template-functions.php"
+			],
+			[
+				"cus",
+				"prompt/inc/custom-fields.php"
+			],
+			[
+				"hom",
+				"prompt/home.php"
+			],
+			[
+				"bitacora",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"bitacora.js",
+				"prompt/js/bitacora.js"
+			],
+			[
+				"playte",
+				"prompt/sass/elements/_playtext.scss"
+			],
+			[
+				"db",
+				"bit_extensions/bit_db_functions.php"
+			],
+			[
+				"tex",
+				"prompt/template-parts/texto-obra.php"
+			],
+			[
+				"styl",
+				"prompt/style.css"
+			],
+			[
+				"gul",
+				"prompt/gulpfile.babel.js"
+			],
+			[
+				"textodr",
+				"prompt/js/bitacora-texto-dramatico.js"
+			],
+			[
+				"bitacorafun",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"navp",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"he",
+				"prompt/header.php"
+			],
+			[
+				"cre",
+				"prompt/page-template-creditos.php"
+			],
+			[
+				"pag",
+				"prompt/page.php"
+			],
+			[
+				"materiales",
+				"prompt/template-parts/materiales-obra.php"
+			],
+			[
+				"taxono",
+				"prompt/taxonomy-obra.php"
+			],
+			[
+				"textoo",
+				"prompt/template-parts/texto-obra.php"
+			],
+			[
+				"dbfu",
+				"bit_extensions/bit_db_functions.php"
+			],
+			[
+				"bitext",
+				"bit_extensions/bit_extensions.php"
+			],
+			[
+				"home",
+				"prompt/sass/site/_home.scss"
+			],
+			[
+				"packa",
+				"prompt/package.json"
+			],
+			[
+				"materia",
+				"prompt/template-parts/materiales-teatro.php"
+			],
+			[
+				"mix",
+				"prompt/sass/mixins/_bitacora.scss"
+			],
+			[
+				"playtex",
+				"prompt/sass/elements/_playtext.scss"
+			],
+			[
+				"texo",
+				"prompt/template-parts/texto-obra.php"
+			],
+			[
+				"bitacoraf",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"ext",
+				"bit_extensions/bit_extensions.php"
+			],
+			[
+				"",
+				"bit_extensions/bit_extensions.php"
+			],
+			[
+				"bitacora.",
+				"prompt/js/bitacora.js"
+			],
+			[
+				"bitacoratex",
+				"prompt/js/bitacora-texto-dramatico.js"
+			],
+			[
+				"load",
+				"prompt/template-parts/loading.php"
+			],
+			[
+				"bita",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"mater",
+				"prompt/sass/elements/_materiales.scss"
+			],
+			[
+				"php",
+				"bit_extensions/phploy.ini"
+			],
+			[
+				"taxo",
+				"prompt/sass/site/_taxonomy-obra.scss"
+			],
+			[
+				"tax",
+				"prompt/taxonomy-obra.php"
+			],
+			[
+				"ficha-ob",
+				"prompt/template-parts/ficha-obra.php"
+			],
+			[
+				"ficha",
+				"prompt/template-parts/ficha-obra.php"
+			],
+			[
+				"taxonom",
+				"prompt/sass/site/_taxonomy-obra.scss"
+			],
+			[
+				"nav-ag",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"page-tem",
+				"prompt/page-template-teatro.php"
+			],
+			[
+				"texto-ob",
+				"prompt/template-parts/texto-obra.php"
+			],
+			[
+				"timeline",
+				"prompt/sass/site/_timeline.scss"
+			],
+			[
+				"timelin",
+				"prompt/less/TL.Timeline.less"
+			],
+			[
+				"texto-",
+				"prompt/template-parts/texto-obra.php"
+			],
+			[
+				"menus",
+				"prompt/sass/navigation/_menus.scss"
+			],
+			[
+				"landi",
+				"prompt/template-parts/landing-overlay.php"
+			],
+			[
+				"credi",
+				"prompt/sass/site/_creditos.scss"
+			],
+			[
+				"material",
+				"prompt/template-parts/materiales-obra.php"
+			],
+			[
+				"dbfun",
+				"bit_extensions/bit_db_functions.php"
+			],
+			[
+				"play",
+				"prompt/sass/elements/_playtext.scss"
+			],
+			[
+				"bit",
+				"prompt/js/bitacora-texto-dramatico.js"
+			],
+			[
+				"pla",
+				"prompt/sass/elements/_playtext.scss"
+			],
+			[
+				"bitfun",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"adm",
+				"bit_extensions/admin-interface.php"
+			],
+			[
+				"customfi",
+				"prompt/inc/custom-fields.php"
+			],
+			[
+				"uti",
+				"bit_extensions/bit_utils.php"
+			],
+			[
+				"bt",
+				"prompt/js/bitacora-texto-dramatico.js"
+			],
+			[
+				"nav-a",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"landin",
+				"prompt/template-parts/landing-overlay.php"
+			],
+			[
+				"bite",
+				"bit_extensions/bit_extensions.php"
+			],
+			[
+				"aja",
+				"prompt/inc/ajax-functions.php"
+			],
+			[
+				"mteriales",
+				"prompt/sass/elements/_materiales.scss"
+			],
+			[
+				"custm",
+				"prompt/inc/custom-fields.php"
+			],
+			[
+				"funcjs",
+				"prompt/js/bitacora-functions.js"
+			],
+			[
+				"ajax",
+				"prompt/inc/ajax-functions.php"
+			],
+			[
+				"taxoo",
+				"prompt/sass/site/_taxonomy-obra.scss"
+			],
+			[
+				"timeline.scs",
+				"prompt/sass/site/_timeline.scss"
+			],
+			[
+				"fich",
+				"prompt/template-parts/ficha-obra.php"
+			],
+			[
+				"typo",
+				"prompt/sass/variables-site/_typography.scss"
+			],
+			[
+				"cred",
+				"prompt/sass/site/_creditos.scss"
+			],
+			[
+				"landing",
+				"prompt/template-parts/landing-overlay.php"
+			],
+			[
+				"ho",
+				"prompt/home.php"
+			],
+			[
+				"foot",
+				"prompt/template-parts/site-footer.php"
+			],
+			[
+				"brand",
+				"prompt/template-parts/brand-header.php"
+			],
+			[
+				"brand-h",
+				"prompt/template-parts/brand-header.php"
+			],
+			[
+				"hea",
+				"prompt/header.php"
+			],
+			[
+				"taxon",
+				"prompt/taxonomy-obra.php"
+			],
+			[
+				"template",
+				"prompt/inc/template-functions.php"
+			],
+			[
+				"customc-",
+				"prompt/inc/custom-content.php"
+			],
+			[
+				"page-templa",
+				"prompt/page-template-materiales-teatro.php"
+			],
+			[
+				"page-te",
+				"prompt/page-template-timeline-teatro.php"
+			],
+			[
+				"nav",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"admin",
+				"bit_extensions/admin-interface.php"
+			],
+			[
+				"bit_ex",
+				"bit_extensions/bit_extensions.php"
+			],
+			[
+				"materi",
+				"prompt/sass/elements/_materiales.scss"
+			],
+			[
+				"custom-boot",
+				"prompt/sass/variables-site/_custom-bootstrap-variables.scss"
+			],
+			[
+				"customboo",
+				"prompt/sass/extras/custom-bootstrap.scss"
+			],
+			[
+				"site",
+				"prompt/sass/site/_site.scss"
+			],
+			[
+				"nav-",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"sit",
+				"prompt/sass/site/_site.scss"
+			],
+			[
+				"navpage",
+				"prompt/template-parts/nav-page-teatro.php"
+			],
+			[
+				"colo",
+				"prompt/sass/variables-site/_colors.scss"
+			],
+			[
+				"color",
+				"prompt/sass/variables-site/_colors.scss"
+			],
+			[
+				"inde",
+				"prompt/index.php"
+			],
+			[
+				"la",
+				"prompt/template-parts/landing-overlay.php"
+			],
+			[
+				"templ",
+				"prompt/inc/template-functions.php"
 			]
 		],
 		"width": 0.0
@@ -3043,8 +1501,104 @@
 		"selected_items":
 		[
 			[
+				"c80",
+				"~/Documents/WebDev/local_sites/c80/app/public/wp-content/themes/c80-template/c80.sublime-project"
+			],
+			[
+				"plu",
+				"~/Documents/WebDev/local_sites/pluralismotv/app/public/wp-content/themes/plutv/pluralismotv.sublime-project"
+			],
+			[
+				"l",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"le",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"lu",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"pl",
+				"~/Documents/WebDev/local_sites/pluralismotv/app/public/wp-content/themes/plutv/pluralismotv.sublime-project"
+			],
+			[
+				"plut",
+				"~/Documents/WebDev/local_sites/pluralismotv/app/public/wp-content/themes/plutv/pluralismotv.sublime-project"
+			],
+			[
+				"itre",
+				"~/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/itrend.sublime-project"
+			],
+			[
+				"itr",
+				"~/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/itrend.sublime-project"
+			],
+			[
+				"luci",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"autom",
+				"~/Documents/WebDev/local_sites/automark/app/public/wp-content/themes/automark/automark.sublime-project"
+			],
+			[
+				"luc",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"ler",
+				"~/Documents/WebDev/local_sites/luciaegana/app/public/wp-content/themes/ler/luciaegana.sublime-project"
+			],
+			[
+				"automark",
+				"~/Documents/WebDev/local_sites/automark/app/public/wp-content/themes/automark/automark.sublime-project"
+			],
+			[
+				"c8",
+				"~/Documents/WebDev/local_sites/c80/app/public/wp-content/themes/c80-template/c80.sublime-project"
+			],
+			[
+				"automa",
+				"~/Documents/WebDev/local_sites/automark/app/public/wp-content/themes/automark/automark.sublime-project"
+			],
+			[
+				"prom",
+				"~/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/prompt.sublime-project"
+			],
+			[
+				"t",
+				"~/Documents/GameDev/cryojelly_2020/code/cryojelly_test_01/cryojelly_test_01.sublime-project"
+			],
+			[
+				"hom",
+				"~/Documents/WebDev/local_sites/automark/app/public/wp-content/themes/automark/automark.sublime-project"
+			],
+			[
+				"atuom",
+				"~/Documents/WebDev/local_sites/automark/app/public/wp-content/themes/automark/automark.sublime-project"
+			],
+			[
+				"pabl",
+				"~/Documents/WebDev/projects/pabloselin/src/pabloselin.sublime-project"
+			],
+			[
 				"",
-				"~/Documentos/code/php/ga/public/wp-content/themes/gonzalo-aguirre/gonzaloaguirre.sublime-project"
+				"~/Documents/WebDev/projects/pabloselin/src/pabloselin.sublime-project"
+			],
+			[
+				"pro",
+				"~/Documents/WebDev/local_sites/bitacora/app/public/wp-content/themes/prompt/prompt.sublime-project"
+			],
+			[
+				"ite",
+				"~/Documents/WebDev/local_sites/itrend/app/public/wp-content/plugins/itrend_custom_content/itrend.sublime-project"
+			],
+			[
+				"pal",
+				"~/Documents/WebDev/projects/pabloselin/src/pabloselin.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -3066,7 +1620,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 301.0,
+	"side_bar_width": 287.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

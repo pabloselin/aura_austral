@@ -2,15 +2,10 @@
 	"folders":
 	[
 		{
-			"path": ".",
-			"folder_exclude_patterns": ["dist", "vendor"]
+			"path": "."
 		},
 		{
-			"path": "/home/donhilo/Documentos/code/php/auraaustral/public/wp-content/plugins/aura-austral-custom-fields"
+			"path": "/home/pabloselin/Documents/WebDev/local_sites/auraaustral/app/public/wp-content/plugins/aura_visualizacion"
 		}
-	],
-	"settings":
-	{
-		"tab_size": 2
-	}
+	]
 }
